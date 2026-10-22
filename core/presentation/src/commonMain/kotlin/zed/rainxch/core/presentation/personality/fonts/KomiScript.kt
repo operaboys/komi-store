@@ -13,14 +13,14 @@ enum class KomiScript {
 
 fun komiScriptForLanguageTag(tag: String?): KomiScript {
     val language =
-        tag
-            ?.trim()
+        tag?.trim()
             ?.replace('_', '-')
             ?.substringBefore('-')
             ?.lowercase()
     return when (language) {
         "ru" -> KomiScript.Cyrillic
         "ar" -> KomiScript.Arabic
+        "fa" -> KomiScript.Arabic  // ← اضافه شد: فارسی
         "hi" -> KomiScript.Devanagari
         "bn" -> KomiScript.Bengali
         "zh" -> KomiScript.HanSimplified
