@@ -1,1 +1,1499 @@
+<resources>
 
+     <!-- Apps feature - App -->
+     <string name="app_name">Komi Store</string>
+     <string name="navigate_back">بازگشت</string>
+     <string name="check_for_updates">بررسی به‌روزرسانی‌ها</string>
+   
+     <!-- Apps feature - Errors / messages -->
+     <string name="cannot_launch">امکان راه‌اندازی %1$s وجود ندارد</string>
+     <string name="failed_to_open">باز کردن %1$s ناموفق بود</string>
+     <string name="failed_to_update">به‌روزرسانی %1$s ناموفق بود: %2$s</string>
+     <string name="update_all_failed">به‌روزرسانی همه ناموفق بود: %1$s</string>
+     <string name="all_apps_updated_successfully">همه‌ی برنامه‌ها با موفقیت به‌روزرسانی شدند</string>
+     <string name="no_updates_available">به‌روزرسانی موجود نیست</string>
+    
+     <!-- Apps feature - Search -->
+     <string name="search_your_apps">جستجوی برنامه‌های شما</string>
+     <string name="no_apps_found">برنامه‌ای یافت نشد</string>
+     <string name="sort_apps">مرتب‌سازی برنامه‌ها</string>
+     <string name="sort_updates_first">ابتدا برنامه‌های دارای به‌روزرسانی</string>
+     
+     <!-- Apps feature - Actions -->
+     <string name="update_all">به‌روزرسانی همه</string>
+     <string name="update">به‌روزرسانی</string>
+     <string name="open">باز کردن</string>
+     <string name="cancel">انصراف</string>
+     
+     <!-- Apps feature - Update states -->
+     <string name="checking">در حال بررسی…</string>
+     <string name="updated_successfully">با موفقیت به‌روزرسانی شد</string>
+     <string name="error_with_message">خطا: %1$s</string>
+     
+     <!-- Apps feature - Update all progress -->
+     <string name="updating_x_of_y">در حال به‌روزرسانی %1$d از %2$d</string>
+     <string name="currently_updating">در حال حاضر: %1$s</string>
+     
+     <!-- Auth general -->
+     <string name="waiting_for_authorization">در انتظار تأیید مجوز…</string>
+     <string name="signed_in">ورود موفق!</string>
+     <string name="redirecting_message">اکنون می‌توانید از برنامه استفاده کنید. در حال هدایت…</string>
+     <string name="try_again">تلاش مجدد</string>
+
+     <!-- Errors -->
+     <string name="auth_error_with_message">خطا: %1$s</string>
+
+     <!-- Device flow -->
+     <string name="enter_code_on_github">این کد را در GitHub وارد کنید:</string>
+     <string name="copy_code">کپی کد</string>
+     <string name="open_github">باز کردن GitHub</string>
+
+     <!-- Logged out -->
+     <string name="unlock_full_experience">تجربه‌ی کامل را\nآزاد کنید</string>
+     <string name="more_requests">درخواست‌های بیشتر</string>
+     <string name="more_requests_description">
+           برای دریافت محدودیت نرخ بالاتر API و جلوگیری از وقفه، وارد شوید.
+     </string>
+     <string name="sign_in_with_github">ورود با GitHub</string>
+     <string name="error_unknown">خطای ناشناخته</string>
+     <string name="search_repositories_hint">جستجوی مخزن، توضیحات…</string>
+
+     <!-- Filters -->
+     <string name="filter_by_language">فیلتر بر اساس زبان</string>
+
+     <!-- Results -->
+     <string name="results_found">%1$d نتیجه یافت شد</string>
+     <string name="search_results_hidden_by_seen_filter">همه‌ی نتایج توسط فیلتر «پنهان کردن دیده‌شده‌ها» مخفی شده‌اند</string>
+     <string name="show_all_results">غیرفعال کردن فیلتر «پنهان کردن دیده‌شده‌ها»</string>
+     <string name="searching_for_unseen_repos">در حال جستجوی مخازن دیده‌نشده…</string>
+
+     <!-- Sorting -->
+     <string name="sort_by">مرتب‌سازی بر اساس</string>
+     <string name="close">بستن</string>
+     <string name="sort_most_stars">بیشترین ستاره‌ها</string>
+     <string name="sort_most_forks">بیشترین فورک‌ها</string>
+     <string name="sort_best_match">بهترین تطابق</string>
+     <string name="sort_recently_released">تازه منتشرشده</string>
+     <string name="sort_order_descending">نزولی</string>
+     <string name="sort_order_ascending">صعودی</string>
+     <string name="sort_label">مرتب‌سازی</string>
+
+     <!-- Programming languages -->
+     <string name="language_all">همه‌ی زبان‌ها</string>
+     <string name="language_kotlin">Kotlin</string>
+     <string name="language_java">Java</string>
+     <string name="language_javascript">JavaScript</string>
+     <string name="language_typescript">TypeScript</string>
+     <string name="language_python">Python</string>
+     <string name="language_swift">Swift</string>
+     <string name="language_rust">Rust</string>
+     <string name="language_go">Go</string>
+     <string name="language_csharp">C#</string>
+     <string name="language_cpp">C++</string>
+     <string name="language_c">C</string>
+     <string name="language_dart">Dart</string>
+     <string name="language_ruby">Ruby</string>
+     <string name="language_php">PHP</string>
+     <string name="search_failed">جستجو ناموفق بود</string>
+     <string name="no_repositories_found">مخزنی یافت نشد</string>
+
+     <!-- Profile -->
+     <string name="profile_title">پروفایل</string>
+     <string name="language_follow_system">پیروی از سیستم</string>
+     <string name="language_restart_required">برای اعمال زبان جدید، برنامه را راه‌اندازی مجدد کنید.</string>
+     <string name="language_restart_action">راه‌اندازی مجدد</string>
+
+     <!-- Appearance -->
+     <string name="theme_color">پالت رنگی</string>
+     <string name="amoled_black_theme">مشکی خالص (AMOLED)</string>
+     <string name="amoled_black_description">پس‌زمینه‌ی کاملاً مشکی — در صفحه‌نمایش‌های OLED انرژی کمتری مصرف می‌کند.</string>
+ 
+     <!-- Account -->
+     <string name="logout">خروج از حساب</string>
+     <string name="proxy_host">آدرس سرور (Host)</string>
+     <string name="proxy_port">پورت (Port)</string>
+     <string name="proxy_username">نام کاربری (اختیاری)</string>
+     <string name="proxy_password">رمز عبور (اختیاری)</string>
+     <string name="proxy_save">ذخیره</string>
+     <string name="proxy_saved">تنظیمات پراکسی ذخیره شد</string>
+     <string name="failed_to_save_proxy_settings">ذخیره‌ی تنظیمات پراکسی ناموفق بود</string>
+     <string name="proxy_host_required">آدرس سرور پراکسی الزامی است</string>
+     <string name="proxy_host_invalid">یک نام میزبان یا آدرس IP معتبر وارد کنید</string>
+     <string name="invalid_proxy_port">پورت پراکسی نامعتبر است</string>
+     <string name="proxy_test_success">اتصال برقرار شد (%1$d میلی‌ثانیه)</string>
+     <string name="proxy_test_error_dns">امکان شناسایی میزبان وجود ندارد. آدرس پراکسی را بررسی کنید.</string>
+     <string name="proxy_test_error_unreachable">امکان دسترسی به سرور پراکسی وجود ندارد.</string>
+     <string name="proxy_test_error_timeout">زمان اتصال به پایان رسید.</string>
+     <string name="proxy_test_error_auth_required">احراز هویت پراکسی الزامی است.</string>
+     <string name="proxy_test_error_status">پاسخ غیرمنتظره: HTTP %1$d</string>
+     <string name="proxy_test_error_unknown">آزمایش اتصال ناموفق بود</string>
+
+     <!-- Snackbar -->
+     <string name="logout_success">با موفقیت از حساب خارج شدید</string>
+
+     <!-- Dialog -->
+     <string name="warning">هشدار!</string>
+     <string name="logout_confirmation">آیا مطمئنید که می‌خواهید از حساب خارج شوید؟</string>
+ 
+     <!-- Theme names -->
+     <string name="theme_forest">Forest (جنگل)</string>
+     <string name="theme_dynamic">Dynamic (پویا)</string>
+     <string name="theme_nord">Nord</string>
+     <string name="theme_cream">Cream (کرم)</string>
+     <string name="theme_plum">Plum (آلو)</string>
+
+     <!-- Navigation & actions -->
+     <string name="open_repository">باز کردن مخزن</string>
+     <string name="open_in_browser">باز کردن در مرورگر</string>
+     <string name="cancel_download">لغو دانلود</string>
+     <string name="show_install_options">نمایش گزینه‌های نصب</string>
+     <string name="error_state_title_generic">مشکلی پیش آمد</string>
+     <string name="error_state_title_offline">شما آفلاین هستید</string>
+     <string name="error_state_title_rate_limit">محدودیت درخواست (Rate limit) فعال شد</string>
+     <string name="error_state_title_not_found">مخزن یافت نشد</string>
+     <string name="error_state_subtitle_offline">اتصال خود را بررسی و دوباره تلاش کنید.</string>
+     <string name="error_state_subtitle_rate_limit">GitHub یا سرور ما به سقف درخواست‌ها رسید. لحظه‌ای دیگر دوباره تلاش کنید.</string>
+     <string name="error_state_subtitle_not_found">ممکن است مخزن خصوصی، تغییرنام‌داده یا حذف شده باشد.</string>
+     <string name="error_state_subtitle_generic">امکان بارگذاری این مخزن وجود ندارد. از دکمه‌ی «تلاش مجدد» استفاده کنید.</string>
+     <string name="retry">تلاش مجدد</string>
+     <string name="error_state_go_back">بازگشت</string>
+     <string name="no_description">توضیحی ارائه نشده است.</string>
+     <string name="no_release_notes">یادداشت انتشاری وجود ندارد.</string>
+
+     <!-- Headers -->
+     <string name="about_this_app">درباره‌ی این برنامه</string>
+     <string name="install_logs">گزارش‌های نصب</string>
+     <string name="whats_new">چه چیز جدیدی؟</string>
+
+     <!-- Install status -->
+     <string name="installed">نصب شده</string>
+     <string name="update_available">به‌روزرسانی موجود است</string>
+     <string name="not_available">در دسترس نیست</string>
+     <string name="pat_use_token_instead">مشکل دارید؟ از توکن دسترسی شخصی (Personal Access Token) استفاده کنید</string>
+     <string name="auth_use_device_code_instead">استفاده از کد دستگاه</string>
+     <string name="installer_category_side_store">F-Droid / Obtainium</string>
+     <string name="installer_category_sideloaded">نصب دستی (Sideloaded)</string>
+     <string name="installer_category_vendor_store">استور سازنده</string>
+     <string name="installer_category_play_store">Play Store</string>
+     <string name="installer_category_system_update">به‌روزرسانی سیستم</string>
+     <string name="link_smart_search_title">یافتن مخزن مطابق</string>
+     <string name="link_smart_search_searching">در حال جستجو در GitHub برای یافتن تطابق…</string>
+     <string name="link_smart_search_no_matches">تطابق خودکاری یافت نشد.</string>
+     <string name="link_smart_search_failed">امکان جستجو برای تطابق وجود ندارد.</string>
+     <string name="link_smart_search_enter_manually">وارد کردن دستی آدرس</string>
+     <string name="match_source_manifest">Manifest (فایل معرفی)</string>
+     <string name="match_source_fingerprint">امضا (Signature)</string>
+     <string name="match_source_search">جستجو</string>
+     <string name="match_source_manual">دستی</string>
+     <string name="match_source_starred">ستاره‌دار (Starred)</string>
+     <string name="pat_sheet_title">ورود با توکن دسترسی شخصی (Personal Access Token)</string>
+     <string name="pat_sheet_description">یک توکن دسترسی شخصی (کلاسیک یا دقیق) روی هر دستگاهی که به GitHub دسترسی دارد بسازید و آن را در زیر بچسبانید. این توکن به دسترسی خواندن مخازن و پروفایل شما نیاز دارد.</string>
+     <string name="pat_open_settings">باز کردن تنظیمات توکن در GitHub</string>
+     <string name="pat_input_label">توکن دسترسی شخصی</string>
+     <string name="pat_input_placeholder">ghp_… یا github_pat_…</string>
+     <string name="pat_submit">ورود</string>
+     <string name="pat_cancel">انصراف</string>
+     <string name="pat_error_empty">لطفاً یک توکن وارد کنید.</string>
+     <string name="pat_error_invalid_format">به نظر نمی‌رسد این یک توکن GitHub باشد. توکن‌ها با ghp_ یا github_pat_ شروع می‌شوند.</string>
+     <string name="pat_error_bad_credentials">این توکن نامعتبر است یا باطل شده است.</string>
+     <string name="pat_error_insufficient_scope">این توکن مجوزهای لازم را ندارد.</string>
+     <string name="pat_error_generic">امکان ذخیره‌ی توکن وجود ندارد. لطفاً دوباره تلاش کنید.</string>
+     <string name="releases_load_failed">امکان بارگذاری انتشارها وجود ندارد</string>
+     <string name="releases_load_failed_description">اتصال خود را بررسی و دوباره تلاش کنید.</string>
+     <string name="no_releases_published">هنوز انتشاری منتشر نشده است</string>
+     <string name="loading_releases">در حال بارگذاری انتشارها…</string>
+     <string name="install_latest">نصب آخرین نسخه</string>
+     <string name="report_issue">گزارش مشکل</string>
+
+     <!-- Download stages -->
+     <string name="downloading">در حال دانلود</string>
+     <string name="updating">در حال به‌روزرسانی</string>
+     <string name="verifying">در حال تأیید</string>
+     <string name="installing">در حال نصب</string>
+     <string name="pending_install">در انتظار نصب</string>
+
+     <!-- Uninstall / Open -->
+     <string name="uninstall">حذف نصب</string>
+     <string name="open_app">باز کردن</string>
+     <string name="downgrade_requires_uninstall">بازگشت به نسخه‌ی قدیمی‌تر نیازمند حذف نصب است</string>
+     <string name="downgrade_warning_message">نصب نسخه‌ی %1$s نیازمند حذف نسخه‌ی فعلی (%2$s) است. داده‌های برنامه از بین خواهد رفت.</string>
+     <string name="uninstall_first">ابتدا حذف نصب کنید</string>
+     <string name="signing_key_changed_title">کلید امضا تغییر کرده است</string>
+     <string name="signing_key_changed_message">گواهی امضای این برنامه از زمان اولین نصب تغییر کرده است.\n\nاین ممکن است به معنای تغییر کلید امضا توسط توسعه‌دهنده باشد، یا ممکن است فایل دستکاری شده باشد.\n\nانتظار می‌رفت: %1$s\nدریافت شد: %2$s</string>
+     <string name="install_anyway">به هر حال نصب کن</string>
+     <string name="verified_build">ساخت تأییدشده</string>
+     <string name="checking_attestation">در حال بررسی…</string>
+     <string name="unable_to_verify_attestation">امکان تأیید وجود ندارد</string>
+     <string name="install_version">نصب %1$s</string>
+     <string name="failed_to_open_app">باز کردن %1$s ناموفق بود</string>
+     <string name="failed_to_uninstall">حذف نصب %1$s ناموفق بود</string>
+     <string name="failed_to_discard_pending">لغو نصب در انتظار برای %1$s ناموفق بود</string>
+
+     <!-- Install helpers -->
+     <string name="open_in_obtainium">باز کردن در Obtainium</string>
+     <string name="obtainium_description">مدیریت خودکار به‌روزرسانی‌ها</string>
+     <string name="inspect_with_appmanager">بررسی با AppManager</string>
+     <string name="appmanager_description">بررسی مجوزها، ردیاب‌ها و امنیت</string>
+ 
+     <!-- Author -->
+     <string name="profile">پروفایل</string>
+
+     <!-- Stats -->
+     <string name="forks">فورک‌ها</string>
+     <string name="stars">ستاره‌ها</string>
+     <string name="issues">مشکلات (Issues)</string>
+     <string name="downloads">دانلودها</string>
+     <string name="license">مجوز (License)</string>
+     <string name="license_none">—</string>
+
+     <!-- Explore -->
+     <string name="fetch_more_from_github">دریافت بیشتر از GitHub</string>
+     <string name="fetching_from_github">در حال دریافت از GitHub…</string>
+     <string name="no_more_github_results">نتایج بیشتری در GitHub وجود ندارد</string>
+     <string name="explore_error">دریافت از GitHub ناموفق بود. دوباره تلاش کنید.</string>
+     <string name="architecture_compatible">سازگار با معماری دستگاه</string>
+     <string name="update_to_version">به‌روزرسانی به %1$s</string>
+     <string name="installer_saved_downloads">فایل نصب در پوشه‌ی دانلودها ذخیره شد</string>
+
+     <!-- Download / install states -->
+     <string name="log_download_started">دانلود آغاز شد</string>
+     <string name="log_downloaded">دانلود شد</string>
+     <string name="log_update_started">به‌روزرسانی آغاز شد</string>
+     <string name="log_installed">نصب شد</string>
+     <string name="log_updated">به‌روزرسانی شد</string>
+     <string name="log_cancelled">لغو شد</string>
+     <string name="log_install_started">نصب آغاز شد</string>
+     <string name="log_error">خطا</string>
+     <string name="log_error_with_message">خطا: %1$s</string>
+
+     <!-- External tools -->
+     <string name="log_prepare_appmanager">آماده‌سازی برای AppManager</string>
+     <string name="log_opened_appmanager">در AppManager باز شد</string>
+     <string name="log_permission_blocked">مجوز نصب توسط سیاست دستگاه مسدود شد</string>
+     <string name="log_opened_external_installer">در نصب‌کننده‌ی خارجی باز شد</string>
+
+     <!-- External installer -->
+     <string name="install_permission_unavailable">مجوز نصب در دسترس نیست</string>
+     <string name="install_permission_blocked_message">فایل APK با موفقیت دانلود شد، اما این دستگاه اجازه‌ی نصب مستقیم نمی‌دهد. آیا می‌خواهید آن را با یک نصب‌کننده‌ی خارجی باز کنید؟</string>
+     <string name="open_with_external_installer">باز کردن با نصب‌کننده‌ی خارجی</string>
+     <string name="external_installer_description">استفاده از یک برنامه‌ی شخص ثالث برای نصب APK</string>
+ 
+     <!-- Errors -->
+     <string name="error_generic">خطا: %1$s</string>
+     
+     <!-- Home -->
+	 <string name="home_finding_repositories">در حال یافتن مخازن…</string>
+	 <string name="home_retry">تلاش مجدد</string>
+	 <string name="home_failed_to_load_repositories">بارگذاری مخازن ناموفق بود</string>
+	 <string name="home_topbar_discover">کشف</string>
+	 <string name="home_masthead_title">برترین‌ها (Top Charts)</string>
+	 <string name="home_masthead_subtitle">رتبه‌بندی · ランキング · CHARTS & PICKS</string>
+	 <string name="home_platform_filter">فیلتر پلتفرم‌ها</string>
+	 <string name="home_chart_trending">پرطرفدار (Trending)</string>
+	 <string name="home_chart_trending_jp">پرطرفدار · 急上昇</string>
+	 <string name="home_chart_releases">تازه منتشرشده</string>
+	 <string name="home_chart_releases_jp">تازه‌ها · 新着</string>
+	 <string name="home_chart_popular">محبوب</string>
+	 <string name="home_chart_popular_jp">محبوب · 人気</string>
+	 <string name="sidebar_browse">مرور</string>
+	 <string name="sidebar_browse_jp">مرور · 航行</string>
+	 <string name="sidebar_platform">پلتفرم</string>
+	 <string name="sidebar_platform_jp">پشتیبانی · 対応</string>
+	 <string name="sidebar_categories">دسته‌بندی‌ها</string>
+	 <string name="sidebar_categories_jp">بخش‌ها · 部門</string>
+	 <string name="sidebar_nav_explore_jp">کشف · 発見</string>
+	 <string name="sidebar_nav_charts_jp">رتبه‌بندی · ランキング</string>
+	 <string name="sidebar_nav_search_jp">جستجو · 検索</string>
+	 <string name="sidebar_nav_you_jp">شما · あなた</string>
+	 <string name="home_section_hot_releases">انتشارهای داغ</string>
+	 <string name="home_section_trending_now">هم‌اکنون پرطرفدار</string>
+	 <string name="home_section_most_popular">محبوب‌ترین‌ها</string>
+	 <string name="home_section_from_your_stars">از ستاره‌های شما</string>
+	 <string name="home_rank_format">#%1$d</string>
+	 <string name="home_action_get">دریافت</string>
+	 <string name="cd_back">بازگشت</string>
+	 <string name="cd_image">تصویر</string>
+	 <string name="common_see_all">مشاهده همه ›</string>
+	 <string name="home_view_all">مشاهده همه</string>
+	 <string name="home_view_more">مشاهده بیشتر</string>
+	 <string name="details_view_developer_profile">مشاهده پروفایل</string>
+	 <string name="details_developer_section">توسعه‌دهنده</string>
+	 <string name="details_stats_section">آمار</string>
+	 <string name="details_about_screen_title">درباره</string>
+	 <string name="details_whats_new_screen_title">چه چیز جدیدی؟</string>
+	 <string name="updated_on_date">به‌روزرسانی در %1$s</string>
+	
+	 <!-- Rate Limit -->
+	 <string name="rate_limit_exceeded">محدودیت درخواست (Rate Limit) فعال شد</string>
+	 <string name="rate_limit_exceeded_retry_in">محدودیت درخواست فعال شد — %1$d ثانیه دیگر دوباره تلاش کنید.</string>
+	 <string name="rate_limit_exceeded_signin_hint">برای سهمیه‌ی بالاتر، با GitHub وارد شوید.</string>
+	 <string name="rate_limit_used_all">شما از تمام %1$d درخواست API خود استفاده کرده‌اید.</string>
+	 <string name="rate_limit_used_all_free">شما از تمام %1$d درخواست رایگان API خود استفاده کرده‌اید.</string>
+	 <string name="rate_limit_resets_in_minutes">%1$d دقیقه تا بازنشانی</string>
+	 <string name="rate_limit_tip_sign_in">💡 وارد شوید تا به جای ۶۰ درخواست، ۵۰۰۰ درخواست در ساعت داشته باشید!</string>
+	 <string name="releases_unavailable_temporarily">انتشارها موقتاً در دسترس نیستند. لطفاً کمی دیگر دوباره تلاش کنید.</string>
+	 <string name="rate_limit_sign_in">ورود</string>
+	 <string name="rate_limit_ok">باشه</string>
+	 <string name="rate_limit_close">بستن</string>
+	
+	 <!-- Theme -->
+	 <string name="system_font">فونت سیستم</string>
+	 <string name="system_font_description">استفاده از فونت دستگاه برای خوانایی بهتر</string>
+	 <string name="theme_light">روشن</string>
+	 <string name="theme_dark">تاریک</string>
+	 <string name="theme_system">سیستم</string>
+	
+	 <!-- Favourites -->
+	 <string name="added_to_favourites">مخزن به علاقه‌مندی‌ها اضافه شد</string>
+	 <string name="removed_from_favourites">مخزن از علاقه‌مندی‌ها حذف شد</string>
+	 <string name="add_to_favourites">افزودن به علاقه‌مندی‌ها</string>
+	 <string name="remove_from_favourites">حذف از علاقه‌مندی‌ها</string>
+	 <string name="favourites">علاقه‌مندی‌ها</string>
+	
+	 <!-- Recently Viewed -->
+	 <string name="recently_viewed">اخیراً مشاهده‌شده</string>
+	 <string name="recently_viewed_remove_cd">حذف از تاریخچه</string>
+	 <string name="profile_recently_viewed_description">مخازنی که بازدید کرده‌اید</string>
+	 <string name="added_just_now">همین الان اضافه شد</string>
+	 <string name="added_hours_ago">%1$d ساعت پیش اضافه شد</string>
+	 <string name="added_yesterday">دیروز اضافه شد</string>
+	 <string name="added_days_ago">%1$d روز پیش اضافه شد</string>
+	 <string name="added_on_date">در %1$s اضافه شد</string>
+	
+	 <!-- Starred Repositories -->
+	 <string name="starred_repositories">مخازن ستاره‌دار (Starred)</string>
+	 <string name="repository_starred">مخزن ستاره‌دار است</string>
+	 <string name="repository_not_starred">مخزن ستاره‌دار نیست</string>
+	 <string name="star_from_github">می‌توانید از GitHub به یک مخزن ستاره بدهید</string>
+	 <string name="unstar_from_github">می‌توانید ستاره‌ی یک مخزن را از GitHub بردارید</string>
+	 <string name="sign_in_required">ورود الزامی است</string>
+	 <string name="sign_in_with_github_for_stars">برای مشاهده‌ی مخازن ستاره‌دار خود، با GitHub وارد شوید</string>
+	 <string name="no_starred_repos">مخزن ستاره‌داری وجود ندارد</string>
+	 <string name="star_repos_hint">به مخازنی در GitHub که انتشارهای قابل نصب دارند ستاره بدهید تا اینجا نمایش داده شوند</string>
+	 <string name="last_synced">آخرین همگام‌سازی</string>
+	 <string name="just_now">همین الان</string>
+	 <string name="minutes_ago">%1$d دقیقه پیش</string>
+	 <string name="hours_ago">%1$d ساعت پیش</string>
+	 <string name="days_ago">%1$d روز پیش</string>
+	 <string name="dismiss">بستن</string>
+	 <string name="sync_starred_failed">همگام‌سازی مخازن ستاره‌دار ناموفق بود</string>
+	 <string name="failed_to_load_repositories">بارگذاری مخازن ناموفق بود</string>
+	 <string name="failed_to_load_profile">بارگذاری پروفایل ناموفق بود</string>
+	
+	 <!-- Developer Profile - Stats -->
+	 <string name="repositories">مخازن</string>
+	 <string name="followers">دنبال‌کنندگان</string>
+	 <string name="following">دنبال‌شوندگان</string>
+	
+	 <!-- Developer Profile - Filter & Sort -->
+	 <string name="search_repositories">جستجوی مخازن…</string>
+	 <string name="clear_search">پاک کردن جستجو</string>
+	 <string name="filter_with_releases">دارای انتشار</string>
+	 <string name="filter_with_installable">قابل نصب در اینجا</string>
+	 <string name="filter_installed">نصب‌شده</string>
+	 <string name="filter_favorites">علاقه‌مندی‌ها</string>
+	 <string name="sort">مرتب‌سازی</string>
+	 <string name="sort_recently_updated">اخیراً به‌روزرسانی‌شده</string>
+	 <string name="sort_name">نام</string>
+	 <string name="sort_recently_added">اخیراً اضافه‌شده</string>
+	 <string name="sort_selected">انتخاب‌شده</string>
+	
+	 <!-- Developer Profile - Repository Count -->
+	 <string name="repository_singular">مخزن</string>
+	 <string name="showing_x_of_y_repositories">نمایش %1$d از %2$d مخزن</string>
+	
+	 <!-- Developer Profile - Empty States -->
+	 <string name="no_repos_with_releases">مخزنی با انتشار وجود ندارد</string>
+	 <string name="no_repos_with_installable">مخزنی با فایل‌های قابل نصب برای این پلتفرم وجود ندارد</string>
+	 <string name="no_installed_repos">مخزن نصب‌شده‌ای وجود ندارد</string>
+	 <string name="no_favorite_repos">مخزن مورد علاقه‌ای وجود ندارد</string>
+	 <string name="has_release">دارای انتشار</string>
+	
+	 <!-- Developer Profile - Time -->
+	 <string name="time_years_ago">%1$d سال پیش</string>
+	 <string name="time_months_ago">%1$d ماه پیش</string>
+	 <string name="time_days_ago">%1$d روز پیش</string>
+	 <string name="time_weeks_ago">%1$d هفته پیش</string>
+	 <string name="time_hours_ago">%1$d ساعت پیش</string>
+	 <string name="time_minutes_ago">%1$d دقیقه پیش</string>
+	
+	 <!-- Developer Profile - Count Formatting -->
+	 <string name="count_millions">%1$dM</string>
+	 <string name="count_thousands">%1$dk</string>
+	
+	 <!-- Released dates -->
+	 <string name="released_just_now">همین الان منتشر شد</string>
+	 <string name="released_hours_ago">%1$d ساعت پیش منتشر شد</string>
+	 <string name="released_yesterday">دیروز منتشر شد</string>
+	 <string name="released_days_ago">%1$d روز پیش منتشر شد</string>
+	 <string name="released_on_date">منتشر شده در %1$s</string>
+	 <string name="details_last_push">آخرین پوش (push): %1$s</string>
+	
+	 <!-- Bottom Nav -->
+	 <string name="bottom_nav_explore_title">کشف</string>
+	 <string name="bottom_nav_search_title">جستجو</string>
+	 <string name="bottom_nav_apps_title">کتابخانه</string>
+	 <string name="bottom_nav_profile_title">پروفایل</string>
+	 <string name="forked_repository">فورک (Fork)</string>
+	
+	 <!-- Assets and Version picker -->
+	 <string name="category_stable">پایدار (Stable)</string>
+	 <string name="category_pre_release">پیش‌انتشار (Pre-release)</string>
+	 <string name="category_all">همه</string>
+	 <string name="select_version">انتخاب نسخه</string>
+	 <string name="pre_release_badge">پیش‌انتشار</string>
+	 <string name="latest_badge">آخرین نسخه</string>
+	
+	 <!-- Pre-release channel UX -->
+	 <string name="channel_chip_include_betas">شامل نسخه‌های بتا</string>
+	 <string name="channel_chip_stable_only">فقط پایدار</string>
+	 <string name="channel_chip_coachmark_title">کانال انتشار خود را انتخاب کنید</string>
+	 <string name="channel_chip_coachmark_body">برای جابه‌جایی بین انتشارهای پایدار و نسخه‌های بتای این برنامه، ضربه بزنید.</string>
+	 <string name="channel_chip_coachmark_dismiss">فهمیدم</string>
+	 <string name="action_switch_to_stable">تغییر به نسخه‌ی پایدار %1$s</string>
+	 <string name="stalled_project_warning_months">%1$d ماه است که نسخه‌ی پایدار منتشر نشده</string>
+	 <string name="stalled_project_warning_days">%1$d روز است که نسخه‌ی پایدار منتشر نشده</string>
+	 <string name="stalled_project_warning_description">پیش‌انتشارهای فعالی وجود دارد، اما پروژه مدتی است نسخه‌ی پایدار منتشر نکرده. ممکن است نسخه‌های بتا هرگز به نسخه‌ی پایدار نرسند.</string>
+	 <string name="merged_whats_changed_title">چه چیزهایی از %1$s تغییر کرده؟</string>
+	 <string name="no_version_selected">بدون نسخه</string>
+	 <string name="versions_title">نسخه‌ها</string>
+	 <string name="assets_title">فایل‌ها (Assets)</string>
+	 <string name="no_assets_selected">بدون فایل</string>
+	 <string name="no_assets_in_list">هیچ فایلی به این انتشار مرتبط نیست</string>
+	 <string name="assets_selection_label">انتخاب گزینه‌ی فایل</string>
+	 <string name="multiple_assets_info_dialog_title">چندین فایل در دسترس است</string>
+	 <string name="multiple_assets_info_dialog_text">برای این انتشار، چندین فایل قابل نصب و دانلودکننده وجود دارد. لطفاً لیست را بررسی و فایلی را انتخاب کنید که با نیازهای دستگاه شما مطابقت دارد.</string>
+	 <string name="icon_content_description_info">اطلاعات</string>
+	
+	 <!-- Apps feature - Last checked -->
+	 <string name="last_checked">آخرین بررسی: %1$s</string>
+	 <string name="last_checked_just_now">همین الان</string>
+	 <string name="last_checked_minutes_ago">%1$d دقیقه پیش</string>
+	 <string name="last_checked_hours_ago">%1$d ساعت پیش</string>
+	 <string name="checking_for_updates">در حال بررسی به‌روزرسانی‌ها…</string>
+	
+	 <!-- Profile section -->
+	 <string name="profile_sign_in_title">ورود با GitHub</string>
+	 <string name="profile_sign_in_description">تجربه‌ی کامل را آزاد کنید. برنامه‌های خود را مدیریت کنید، تنظیمات را همگام‌سازی کنید و سریع‌تر مرور کنید.</string>
+	 <string name="profile_repos">مخازن</string>
+	 <string name="profile_login">ورود</string>
+	 <string name="profile_stars_description">مخازن ستاره‌دار شما در GitHub</string>
+	 <string name="profile_favourites_description">مخازن مورد علاقه‌ی شما که به‌صورت محلی ذخیره شده‌اند</string>
+	
+	 <!-- Session expired dialog -->
+	 <string name="session_expired_title">نشست منقضی شد</string>
+	 <string name="session_expired_message">نشست GitHub شما منقضی شده یا توکن باطل شده است. لطفاً برای ادامه‌ی استفاده از امکانات احراز هویت، دوباره وارد شوید.</string>
+	 <string name="session_expired_hint">همچنان می‌توانید به‌صورت مهمان و با درخواست‌های محدود API مرور کنید.</string>
+	 <string name="sign_in_again">ورود مجدد</string>
+	 <string name="continue_as_guest">ادامه به‌عنوان مهمان</string>
+	
+	 <!-- Logout improvements -->
+	 <string name="logout_revocation_note">این کار نشست محلی و داده‌های کش‌شده را پاک می‌کند. برای باطل کردن کامل دسترسی، به GitHub > Settings > Applications مراجعه کنید.</string>
+	 <string name="auth_error_code_expired">کد دستگاه منقضی شده است.</string>
+	 <string name="auth_hint_try_again">لطفاً برای دریافت کد جدید، دوباره وارد شوید.</string>
+	 <string name="auth_hint_check_connection">لطفاً اتصال اینترنت خود را بررسی و دوباره تلاش کنید.</string>
+	 <string name="auth_hint_denied">شما درخواست مجوز را رد کردید. اگر اشتباهی بوده، دوباره تلاش کنید.</string>
+	 <string name="auth_check_status">من قبلاً مجوز دادم</string>
+	 <string name="auth_polling_status">در حال بررسی…</string>
+	 <string name="auth_rate_limited">محدودیت درخواست — %1$d ثانیه دیگر دوباره تلاش می‌شود</string>
+	
+	 <!-- Read More / Show Less -->
+	 <string name="read_more">ادامه مطلب</string>
+	 <string name="show_less">نمایش کمتر</string>
+	 <string name="share_repository">اشتراک‌گذاری مخزن</string>
+	 <string name="failed_to_share_link">اشتراک‌گذاری لینک ناموفق بود</string>
+	 <string name="link_copied_to_clipboard">لینک در کلیپ‌بورد کپی شد</string>
+	 <string name="translate_to">ترجمه به…</string>
+	 <string name="search_language">جستجوی زبان</string>
+	 <string name="translation_failed">ترجمه ناموفق بود. لطفاً دوباره تلاش کنید.</string>
+	 <string name="select_language">انتخاب زبان</string>
+	
+	 <!-- Search - GitHub Link -->
+	 <string name="open_github_link">باز کردن لینک GitHub</string>
+	 <string name="clipboard_link_detected">لینک GitHub در کلیپ‌بورد شناسایی شد</string>
+	 <string name="detected_links">لینک‌های شناسایی‌شده</string>
+	 <string name="open_in_app">باز کردن در برنامه</string>
+	 <string name="no_github_link_in_clipboard">لینک GitHub در کلیپ‌بورد یافت نشد</string>
+	
+	 <!-- Delete Downloads -->
+	 <string name="delete_all">حذف همه</string>
+	 <string name="delete_downloads_confirmation_title">همه‌ی دانلودها حذف شوند؟</string>
+	 <string name="delete_downloads_confirmation_message">این کار همه‌ی فایل‌های APK و نصب‌کننده‌های دانلودشده (%1$s) را برای همیشه حذف می‌کند. هر زمان می‌توانید آن‌ها را دوباره دانلود کنید.</string>
+	 <string name="downloads_cleared">همه‌ی بسته‌های دانلودشده حذف شدند.</string>
+	 <string name="clear">پاک کردن</string>
+	
+	 <!-- Installer types -->
+	 <string name="installer_type_default">نصب‌کننده‌ی سیستمی</string>
+	 <string name="installer_type_default_description">هر بار درخواست می‌دهد. روی همه‌ی دستگاه‌ها کار می‌کند.</string>
+	 <string name="installer_type_shizuku">Shizuku</string>
+	 <string name="installer_type_shizuku_description">نصب بی‌صدا بدون درخواست مجوز</string>
+	 <string name="shizuku_status_not_installed">Shizuku نصب نیست</string>
+	 <string name="shizuku_status_not_running">Shizuku در حال اجرا نیست</string>
+	 <string name="shizuku_status_permission_needed">مجوز مورد نیاز است</string>
+	 <string name="shizuku_status_ready">آماده</string>
+	 <string name="shizuku_grant_permission">اعطای مجوز</string>
+	 <string name="shizuku_install_hint">برای فعال‌سازی نصب بی‌صدا، Shizuku را نصب کنید</string>
+	 <string name="shizuku_start_hint">برای فعال‌سازی نصب بی‌صدا، Shizuku را اجرا کنید</string>
+	 <string name="shizuku_install_failed_fallback">نصب با Shizuku ناموفق بود، از نصب‌کننده‌ی استاندارد استفاده می‌شود</string>
+	 <string name="installer_type_dhizuku">Dhizuku</string>
+	 <string name="installer_type_dhizuku_description">نصب بی‌صدا از طریق مالک دستگاه (Device Owner) — از درخواست‌های نصب سازنده عبور می‌کند</string>
+	 <string name="dhizuku_status_not_installed">Dhizuku نصب نیست</string>
+	 <string name="dhizuku_status_not_running">Dhizuku فعال نیست</string>
+	 <string name="dhizuku_status_permission_needed">مجوز مورد نیاز است</string>
+	 <string name="dhizuku_status_ready">آماده</string>
+	 <string name="dhizuku_grant_permission">اعطای مجوز</string>
+	 <string name="dhizuku_install_hint">برای فعال‌سازی نصب بی‌صدا، Dhizuku را نصب و به‌عنوان مالک دستگاه فعال کنید</string>
+	 <string name="dhizuku_start_hint">برای فعال‌سازی نصب بی‌صدا، Dhizuku را به‌عنوان مالک دستگاه فعال کنید</string>
+	 <string name="installer_type_root">روت (Root)</string>
+	 <string name="installer_type_root_description">نصب بی‌صدا از طریق روت با Magisk، KernelSU یا APatch</string>
+	 <string name="root_status_ready">اعطا شده</string>
+	 <string name="root_status_permission_needed">اجازه‌ی دسترسی روت</string>
+	 <string name="root_status_unavailable">بدون روت</string>
+	 <string name="root_grant_permission">اعطای دسترسی روت</string>
+	 <string name="root_unavailable_hint">دسترسی روت روی این دستگاه در دسترس نیست. ابتدا Magisk، KernelSU یا APatch را نصب کنید.</string>
+	
+	 <!-- Auto update -->
+	 <string name="auto_update_title">نصب به‌روزرسانی‌ها در پس‌زمینه</string>
+	 <string name="auto_update_description">اعمال به‌روزرسانی‌های دانلودشده بدون اطلاع‌رسانی هر بار.</string>
+	
+	 <!-- Installer attribution -->
+	 <string name="installer_attribution_title">شناسایی نصب‌کننده (Installer attribution)</string>
+	 <string name="installer_attribution_description">برنامه‌ها می‌توانند ببینند کدام نصب‌کننده آن‌ها را روی دستگاه شما قرار داده است. به‌صورت پیش‌فرض، این پوسته‌ی سیستم است.</string>
+	 <string name="installer_attribution_preset_system">پیش‌فرض سیستم</string>
+	 <string name="installer_attribution_preset_playstore">Play Store</string>
+	 <string name="installer_attribution_preset_fdroid">F-Droid</string>
+	 <string name="installer_attribution_preset_obtainium">Obtainium</string>
+	 <string name="installer_attribution_preset_custom">سفارشی…</string>
+	 <string name="installer_attribution_custom_label">نام بسته‌ی نصب‌کننده</string>
+	 <string name="installer_attribution_custom_apply">اعمال</string>
+	 <string name="installer_attribution_custom_error">یک نام بسته‌ی معتبر اندروید استفاده کنید (مثلاً com.example.installer)</string>
+	 <string name="installer_attribution_disclosure">برخی برنامه‌ها تغییر نصب‌کننده‌ی خود را تشخیص می‌دهند و ممکن است از اجرا شدن خودداری کنند یا در بررسی‌های امنیتی (مانند Play Integrity یا اپ‌های بانکی) مردود شوند.</string>
+	
+	 <!-- Update check -->
+	 <string name="update_check_interval_title">بررسی هر</string>
+	 <string name="update_check_interval_description">چند وقت یک‌بار برای انتشارهای جدید جستجو شود.</string>
+	 <string name="update_check_enabled_title">بررسی خودکار</string>
+	 <string name="update_check_enabled_description">جستجوی خودکار برای انتشارهای جدید طبق یک برنامه‌ی زمانی. برای صرفه‌جویی در باتری آن را خاموش کنید — همچنان می‌توانید از صفحه‌ی جزئیات هر برنامه، به‌صورت دستی بررسی کنید.</string>
+	 <string name="interval_every_hours">هر %1$d ساعت</string>
+	 <string name="interval_daily">روزانه</string>
+	 <string name="interval_every_days">هر %1$d روز</string>
+	 <string name="interval_weekly">هفتگی</string>
+	 <string name="interval_biweekly">هر ۲ هفته</string>
+	 <string name="interval_monthly">هر ۳۰ روز</string>
+	
+	 <!-- Battery optimization -->
+	 <string name="battery_optimization_card_title">اجازه‌ی به‌روزرسانی در پس‌زمینه</string>
+	 <string name="battery_optimization_card_description">دستگاه شما وظایف پس‌زمینه را به‌شدت متوقف می‌کند. برای اجرای قابل‌اطمینان بررسی‌های زمان‌بندی‌شده و نصب‌های بی‌صدا، Komi Store را از بهینه‌سازی باتری خارج کنید.</string>
+	 <string name="battery_optimization_card_open">باز کردن تنظیمات</string>
+	 <string name="battery_optimization_card_dismiss">شاید بعداً</string>
+	
+	 <!-- Link app -->
+	 <string name="add_by_link">پیگیری یک برنامه</string>
+	 <string name="link_app_title">اتصال برنامه به مخزن</string>
+	 <string name="pick_installed_app">یک برنامه‌ی نصب‌شده را برای اتصال به یک مخزن در GitHub انتخاب کنید</string>
+	 <string name="search_apps_hint">جستجوی برنامه‌ها…</string>
+	 <string name="enter_repo_url">آدرس مخزن در GitHub</string>
+	 <string name="repo_url_hint">github.com/owner/repo</string>
+	 <string name="validating_repo">در حال اعتبارسنجی…</string>
+	 <string name="link_and_track">اتصال و پیگیری</string>
+	 <string name="checking_release">در حال بررسی آخرین انتشار…</string>
+	 <string name="verifying_signing_key">در حال تأیید کلید امضا…</string>
+	 <string name="package_name_mismatch">عدم تطابق نام بسته: فایل APK مربوط به %1$s است، اما برنامه‌ی انتخاب‌شده %2$s است</string>
+	 <string name="signing_key_mismatch_link">عدم تطابق کلید امضا: فایل APK این مخزن توسط توسعه‌دهنده‌ای متفاوت از برنامه‌ی نصب‌شده امضا شده است</string>
+	 <string name="select_asset_title">انتخاب فایل نصب</string>
+	 <string name="select_asset_description">فایل APK را برای تطبیق با برنامه‌ی نصب‌شده انتخاب کنید</string>
+	
+	 <!-- Export / Import -->
+	 <string name="export_apps">خروجی گرفتن از کتابخانه</string>
+	 <string name="export_apps_obtainium">خروجی برای Obtainium</string>
+	 <string name="import_apps">وارد کردن از فایل</string>
+	 <string name="import_summary_title">نتایج وارد کردن — %1$s</string>
+	 <string name="import_summary_format_native">Komi Store</string>
+	 <string name="import_summary_format_obtainium">Obtainium</string>
+	 <string name="import_summary_imported">%1$d وارد شد</string>
+	 <string name="import_summary_already_tracked">%1$d از قبل در حال پیگیری بود</string>
+	 <string name="import_summary_failed">%1$d ناموفق بود</string>
+	 <string name="import_summary_non_github">%1$d مربوط به GitHub نیست</string>
+	 <string name="import_summary_non_github_caption">هنوز منابع GitLab، F-Droid یا HTML را پیگیری نمی‌کنیم.</string>
+	 <string name="import_summary_close">انجام شد</string>
+	 <string name="import_summary_expand">نمایش جزئیات</string>
+	 <string name="import_summary_collapse">پنهان کردن جزئیات</string>
+	 <string name="import_summary_unknown_format">امکان خواندن این فایل وجود ندارد</string>
+	 <string name="import_summary_unknown_caption">این فایل به نظر یک خروجی از Komi Store یا Obtainium نمی‌رسد. ابتدای فایل به این شکل است:</string>
+	
+	 <!-- Add from starred -->
+	 <string name="add_from_starred_title">افزودن از ستاره‌دارها</string>
+	 <string name="starred_picker_title">افزودن از ستاره‌دارها</string>
+	 <string name="starred_picker_header_counts">%1$d ستاره‌دار · %2$d دارای APK · %3$d در حال پیگیری</string>
+	 <string name="starred_picker_progress">در حال بررسی %1$d / %2$d…</string>
+	 <string name="starred_picker_search_hint">جستجوی مالک / مخزن / توضیحات</string>
+	 <string name="starred_picker_sort_recent">اخیراً ستاره‌دار شده</string>
+	 <string name="starred_picker_sort_alphabetical">الفبایی</string>
+	 <string name="starred_picker_sort_stars">بیشترین ستاره</string>
+	 <string name="starred_picker_filter_show_all">نمایش مخازن بدون انتشار APK</string>
+	 <string name="starred_picker_apk_badge">APK</string>
+	 <string name="starred_picker_already_tracked">در حال پیگیری</string>
+	 <string name="starred_picker_empty">مخزن ستاره‌داری وجود ندارد. برای مشاهده‌ی مخازن در اینجا، در GitHub به آن‌ها ستاره بدهید.</string>
+	 <string name="starred_picker_no_match">نتیجه‌ای مطابقت ندارد.</string>
+	 <string name="starred_picker_sign_in_required">برای مشاهده‌ی مخازن ستاره‌دار خود، با GitHub وارد شوید.</string>
+	 <string name="starred_picker_rate_limited">محدودیت درخواست در GitHub فعال شد. برای ادامه‌ی بررسی، دکمه‌ی ادامه را بزنید.</string>
+	 <string name="starred_picker_resume">ادامه</string>
+	 <string name="starred_picker_star_dedup_tooltip">برداشتن ستاره در GitHub، پیگیری برنامه را متوقف نمی‌کند.</string>
+	 <string name="starred_picker_cd_ships_apk">دارای APK</string>
+	 <string name="starred_picker_cd_already_tracked">در حال پیگیری</string>
+	 <string name="starred_picker_cd_latest">آخرین نسخه %1$s</string>
+	
+	 <!-- Import stars by username -->
+	 <string name="import_stars_title">وارد کردن مخازن ستاره‌دار بر اساس نام کاربری</string>
+	 <string name="import_stars_subtitle">نام کاربری هر کسی در GitHub را وارد کنید تا مخازن ستاره‌دار عمومی آن‌ها را مرور و به علاقه‌مندی‌های خود اضافه کنید. نیازی به ورود نیست.</string>
+	 <string name="import_stars_hint">نام کاربری در GitHub</string>
+	 <string name="import_stars_button">مشاهده‌ی مخازن ستاره‌دار</string>
+	 <string name="import_stars_header_count">@%1$s · %2$d مخزن ستاره‌دار</string>
+	 <string name="import_stars_search_hint">جستجوی مالک / مخزن / توضیحات</string>
+	 <string name="import_stars_add_all">افزودن %1$d به علاقه‌مندی‌ها</string>
+	 <string name="import_stars_empty">@%1$s هیچ مخزن ستاره‌داری ندارد.</string>
+	 <string name="import_stars_no_match">نتیجه‌ای مطابقت ندارد.</string>
+	 <string name="import_stars_add">افزودن به علاقه‌مندی‌ها</string>
+	 <string name="import_stars_added">از قبل در علاقه‌مندی‌هاست</string>
+	 <string name="import_stars_try_another">کاربر دیگری را امتحان کنید</string>
+	 <string name="import_stars_entry">وارد کردن مخازن ستاره‌دار بر اساس نام کاربری</string>
+	
+	 <!-- Pre-release default channel -->
+	 <string name="include_pre_releases_title">کانال پیش‌فرض بتا</string>
+	 <string name="include_pre_releases_description">برنامه‌های تازه پیگیری‌شده به‌صورت پیش‌فرض نسخه‌های بتا را شامل می‌شوند. برنامه‌های از قبل پیگیری‌شده تنظیمات کانال خود را حفظ می‌کنند (از صفحه‌ی جزئیات هر برنامه قابل تغییر است).</string>
+	
+	 <!-- Uninstall / Discard dialogs -->
+	 <string name="confirm_uninstall_title">برنامه حذف نصب شود؟</string>
+	 <string name="confirm_uninstall_message">آیا مطمئنید که می‌خواهید %1$s را حذف نصب کنید؟ این عمل قابل بازگشت نیست و ممکن است داده‌های برنامه از بین برود.</string>
+	 <string name="confirm_discard_pending_title">نصب در انتظار لغو شود؟</string>
+	 <string name="confirm_discard_pending_message">فایل نصب در انتظار برای %1$s حذف و از لیست برنامه‌های شما برداشته شود؟ فایل APK دانلودشده نیز حذف خواهد شد.</string>
+	
+	 <!-- Errors -->
+	 <string name="invalid_github_url">آدرس نامعتبر در GitHub. از فرمت زیر استفاده کنید: github.com/owner/repo</string>
+	 <string name="repo_not_found">مخزن یافت نشد: %1$s/%2$s</string>
+	 <string name="rate_limit_try_again">محدودیت درخواست در GitHub فعال شد. بعداً دوباره تلاش کنید.</string>
+	 <string name="failed_to_link">اتصال ناموفق بود: %1$s</string>
+	 <string name="failed_to_load_apps">بارگذاری برنامه‌های نصب‌شده ناموفق بود</string>
+	 <string name="app_linked_success">%1$s به %2$s/%3$s متصل شد</string>
+	 <string name="export_failed">خروجی گرفتن ناموفق بود: %1$s</string>
+	 <string name="import_failed">وارد کردن ناموفق بود: %1$s</string>
+	 <string name="update_package_mismatch">عدم تطابق بسته: فایل APK مربوط به %1$s است، اما برنامه‌ی نصب‌شده %2$s است. به‌روزرسانی مسدود شد.</string>
+	 <string name="update_signing_key_mismatch">عدم تطابق کلید امضا: به‌روزرسانی توسط توسعه‌دهنده‌ای متفاوت امضا شده است. به‌روزرسانی مسدود شد.</string>
+	
+	 <!-- Desktop options -->
+	 <string name="scrollbar_option_title">نوار پیمایش</string>
+	 <string name="scrollbar_option_description">نمایش نوار پیمایش در لیست‌های قابل اسکرول (دسکتاپ)</string>
+	 <string name="content_width_title">عرض محتوا</string>
+	 <string name="content_width_description">حداکثر عرض ستون صفحه‌ی جزئیات را کنترل می‌کند (دسکتاپ)</string>
+	 <string name="content_width_compact">فشرده</string>
+	 <string name="content_width_wide">عریض</string>
+	 <string name="content_width_extra_wide">بسیار عریض</string>
+	
+	 <!-- Seen history / badges -->
+	 <string name="seen_history_cleared">تاریخچه‌ی مشاهده پاک شد</string>
+	 <string name="seen_badge">مشاهده شده</string>
+	 <string name="repo_card_details">جزئیات</string>
+	 <string name="self_owned_badge">این مخزن متعلق به شماست</string>
+	 <string name="hide_repository">پنهان کردن مخزن</string>
+	 <string name="open_on_github">باز کردن در GitHub</string>
+	 <string name="mark_as_viewed">علامت‌گذاری به‌عنوان مشاهده‌شده</string>
+	 <string name="mark_as_unviewed">علامت‌گذاری به‌عنوان مشاهده‌نشده</string>
+	 <string name="show_all_platforms_label">نمایش همه‌ی پلتفرم‌ها</string>
+	 <string name="platform_section_android">Android</string>
+	 <string name="platform_section_windows">Windows</string>
+	 <string name="platform_section_macos">macOS</string>
+	 <string name="platform_section_linux">Linux</string>
+	 <string name="platform_section_ios">iOS</string>
+	 <string name="section_chip_your_device">دستگاه شما</string>
+	 <string name="section_chip_for_transfer">برای انتقال</string>
+	
+	 <!-- Hidden repositories -->
+	 <string name="hidden_repositories_title">مخازن پنهان‌شده</string>
+	 <string name="hidden_repositories_entry_description">مدیریت مخازنی که از صفحه‌ی اصلی و جستجو پنهان کرده‌اید.</string>
+	 <string name="hidden_repositories_empty_title">مخزن پنهان‌شده‌ای وجود ندارد</string>
+	 <string name="hidden_repositories_empty_description">برای پنهان کردن یک مخزن از کشف، روی کارت آن در صفحه‌ی اصلی یا جستجو انگشت خود را نگه دارید.</string>
+	 <string name="hidden_repositories_unhide_action">آشکار کردن</string>
+	 <string name="hidden_repositories_unhide_all">آشکار کردن همه</string>
+	 <string name="hidden_repositories_unhidden_snackbar">%1$s آشکار شد</string>
+	 <string name="hidden_repositories_unhidden_all_snackbar">همه‌ی مخازن آشکار شدند</string>
+	 <string name="hidden_repositories_unhide_failure">امکان آشکار کردن وجود ندارد. دوباره تلاش کنید.</string>
+	
+	 <!-- Search history -->
+	 <string name="recent_searches">جستجوهای اخیر</string>
+	 <string name="clear_all_history">پاک کردن همه</string>
+	 <string name="remove_search_history_item">حذف</string>
+	 <string name="tweaks_title">تنظیمات (Tweaks)</string>
+	
+	 <!-- Monorepo support: per-app asset filter & older-release fallback -->
+	 <string name="asset_filter_label">فیلتر فایل (Asset)</string>
+	 <string name="asset_filter_placeholder">مثلاً ente-auth</string>
+	 <string name="asset_filter_help">فقط فایل‌هایی که با این الگو (regex) مطابقت دارند نصب می‌شوند. برای مونوریپوهایی که چندین برنامه دارند مفید است.</string>
+	 <string name="asset_filter_invalid">عبارت باقاعده (regex) نامعتبر است</string>
+	 <string name="asset_filter_no_match">هیچ فایلی با این فیلتر مطابقت ندارد</string>
+	 <string name="asset_none_available">هیچ فایل قابل نصبی در این انتشار وجود ندارد</string>
+	 <plurals name="asset_filter_visible_count">
+	     <item quantity="one">نمایش %1$d از %2$d فایل</item>
+	     <item quantity="other">نمایش %1$d از %2$d فایل</item>
+	 </plurals>
+	 <plurals name="custom_forges_count">
+	     <item quantity="one">%1$d میزبان</item>
+	     <item quantity="other">%1$d میزبان</item>
+	 </plurals>
+	 <plurals name="host_tokens_count">
+	     <item quantity="one">%1$d توکن</item>
+	     <item quantity="other">%1$d توکن</item>
+	 </plurals>
+	 <plurals name="skipped_updates_count">
+	     <item quantity="one">%1$d برنامه</item>
+	     <item quantity="other">%1$d برنامه</item>
+	 </plurals>
+	 <plurals name="hidden_repositories_count">
+	     <item quantity="one">%1$d مخزن</item>
+	     <item quantity="other">%1$d مخزن</item>
+	 </plurals>
+	 <string name="fallback_older_releases_title">بازگشت به انتشارهای قدیمی‌تر</string>
+	 <string name="fallback_older_releases_description">بررسی انتشارهای گذشته تا زمانی که یکی با فیلتر مطابقت داشته باشد. برای مونوریپوهایی که آخرین انتشار متعلق به یک برنامه‌ی دیگر است، ضروری است.</string>
+	 <string name="advanced_settings_title">فیلتر پیشرفته</string>
+	 <string name="advanced_settings_description">تنظیم نحوه‌ی تطبیق این برنامه در مخزن. زمانی که مخزن چندین برنامه دارد، از این تنظیمات استفاده کنید.</string>
+	 <string name="advanced_settings_open">باز کردن فیلتر پیشرفته</string>
+	 <string name="advanced_save">ذخیره</string>
+	 <string name="advanced_preview_title">پیش‌نمایش</string>
+	 <string name="advanced_preview_refresh">به‌روزرسانی پیش‌نمایش</string>
+	 <string name="advanced_preview_pending">برای پیش‌نمایش فایل‌های مطابق، یک فیلتر وارد کنید.</string>
+	 <string name="advanced_preview_no_match">هیچ انتشاری در بازه‌ی اخیر شامل فایل‌های مطابق نیست. بازگشت به انتشارهای قدیمی‌تر را فعال کنید یا عبارت باقاعده را تنظیم کنید.</string>
+	 <string name="advanced_preview_failed">امکان بارگذاری پیش‌نمایش وجود ندارد. اتصال خود را بررسی و دوباره تلاش کنید.</string>
+	 <plurals name="advanced_preview_release">
+	     <item quantity="one">مطابقت در %1$s · %2$d فایل</item>
+	     <item quantity="other">مطابقت در %1$s · %2$d فایل</item>
+	 </plurals>
+	
+	 <!-- Preferred-variant feature -->
+	 <string name="variant_picker_title">نوع ترجیحی (Variant)</string>
+	 <string name="variant_picker_description">انتخاب کنید کدام نوع فایل APK برای به‌روزرسانی‌ها نصب شود. این انتخاب در انتشارهای بعدی نیز به خاطر سپرده می‌شود.</string>
+	 <string name="variant_picker_no_assets">هیچ فایل قابل نصبی در آخرین انتشار وجود ندارد.</string>
+	 <string name="variant_picker_no_pinnable">این انتشار هیچ نوعی با برچسب نسخه برای سنجاق کردن ندارد. انتخاب‌گر خودکار همچنان بهترین فایل را برای دستگاه شما انتخاب می‌کند.</string>
+	 <string name="variant_picker_load_failed">امکان بارگذاری انواع وجود ندارد. اتصال خود را بررسی و دوباره تلاش کنید.</string>
+	 <string name="variant_picker_save_failed">امکان ذخیره‌ی انتخاب شما وجود ندارد. دوباره تلاش کنید.</string>
+	 <string name="variant_picker_stale_title">نوع تغییر کرده — دوباره انتخاب کنید</string>
+	 <string name="variant_picker_stale_was">قبلی: %1$s</string>
+	 <string name="variant_picker_auto_title">خودکار</string>
+	 <string name="variant_picker_auto_subtitle">اجازه دهید Komi Store بهترین نوع را برای دستگاه شما انتخاب کند</string>
+	 <string name="markdown_alert_note">یادداشت</string>
+	 <string name="markdown_alert_tip">نکته</string>
+	 <string name="markdown_alert_important">مهم</string>
+	 <string name="markdown_alert_warning">هشدار</string>
+	 <string name="markdown_alert_caution">احتیاط</string>
+	 <string name="variant_picker_pinned">سنجاق‌شده به: %1$s</string>
+	 <string name="variant_stale_hint">نوع تغییر کرده — برای انتخاب مجدد، روی به‌روزرسانی ضربه بزنید</string>
+	 <string name="variant_label_inline">نوع: %1$s</string>
+	
+	 <!-- Multi-layer variant fingerprint UX -->
+	 <string name="variant_picker_unpin">برداشتن سنجاق</string>
+	 <string name="variant_picker_pinned_badge">سنجاق‌شده</string>
+	 <string name="variant_picker_open">انتخاب نوع</string>
+	 <string name="variant_picker_open_filter">تنظیم فیلتر</string>
+	 <string name="variant_first_pin_toast">به‌روزرسانی‌های آینده نوع %1$s را ترجیح می‌دهند. هر زمان می‌توانید این را در تنظیمات برنامه تغییر دهید.</string>
+	 <string name="variant_first_pin_toast_generic">به‌روزرسانی‌های آینده این نوع را ترجیح می‌دهند. هر زمان می‌توانید این را در تنظیمات برنامه تغییر دهید.</string>
+	 <string name="variant_unpinned_toast">سنجاق نوع برداشته شد. به‌روزرسانی‌ها از انتخاب‌گر خودکار استفاده می‌کنند.</string>
+	 <string name="advanced_filter_variant_relation">فیلتر تصمیم می‌گیرد کدام فایل‌ها در نظر گرفته شوند. سنجاق نوع تصمیم می‌گیرد کدام‌یک از آن فایل‌ها نصب شود.</string>
+	
+	 <!-- Pending install -->
+	 <string name="install">نصب</string>
+	 <string name="ready_to_install">آماده‌ی نصب</string>
+	 <string name="install_ready">نصب (آماده)</string>
+	
+	 <!-- Translation Providers -->
+	 <string name="translation_intro">سرویس مورد استفاده برای ترجمه‌ی محتوای README را انتخاب کنید.</string>
+	 <string name="translation_provider_title">سرویس ترجمه</string>
+	 <string name="translation_provider_description">گوگل بدون پیکربندی در سطح جهانی کار می‌کند. یودائو در چین قابل استفاده است، اما به اعتبارنامه‌ی API از پورتال توسعه‌دهندگان یودائو نیاز دارد.</string>
+	 <string name="translation_provider_google">Google</string>
+	 <string name="translation_provider_youdao">Youdao</string>
+	 <string name="translation_provider_saved">سرویس ترجمه به‌روزرسانی شد</string>
+	 <string name="translation_youdao_help">برای دریافت App Key و App Secret خود در ai.youdao.com ثبت‌نام کنید. سطح رایگان برای استفاده‌ی معمولی کافی است.</string>
+	 <string name="translation_youdao_app_key">App Key</string>
+	 <string name="translation_youdao_app_secret">App Secret</string>
+	 <string name="translation_youdao_save">ذخیره‌ی اعتبارنامه</string>
+	 <string name="translation_youdao_saved">اعتبارنامه‌ی یودائو ذخیره شد</string>
+	 <string name="translation_provider_libre">LibreTranslate</string>
+	 <string name="translation_provider_deepl">DeepL</string>
+	 <string name="translation_libre_help">از طریق آینه‌ی عمومی Disroot بدون نیاز به پیکربندی کار می‌کند — برای استفاده از آن فیلدها را خالی بگذارید. برای حریم خصوصی بیشتر، آدرس URL میزبانی‌شده‌ی خود را وارد کنید. کلید API فقط در صورتی لازم است که نمونه به آن نیاز داشته باشد.</string>
+	 <string name="translation_libre_base_url">آدرس نمونه (Instance URL)</string>
+	 <string name="translation_libre_api_key">کلید API (اختیاری)</string>
+	 <string name="translation_libre_save">ذخیره‌ی تنظیمات</string>
+	 <string name="translation_libre_saved">تنظیمات LibreTranslate ذخیره شد</string>
+	 <string name="translation_deepl_help">در deepl.com/pro-api ثبت‌نام کنید. کلیدهای سطح رایگان با :fx پایان می‌یابند و به‌طور خودکار از endpoint رایگان استفاده می‌کنند. سطح حرفه‌ای متن شما را خصوصی نگه می‌دارد؛ سطح رایگان ممکن است از متن ارسالی برای بهبود مدل‌ها استفاده کند.</string>
+	 <string name="translation_deepl_auth_key">کلید احراز هویت</string>
+	 <string name="translation_deepl_save">ذخیره‌ی کلید</string>
+	 <string name="translation_deepl_saved">کلید DeepL ذخیره شد</string>
+	 <string name="translation_deepl_get_free_key">دریافت کلید رایگان DeepL ←</string>
+	 <string name="translation_provider_microsoft">Microsoft</string>
+	 <string name="translation_microsoft_help">مترجم آژور (Azure Translator) حریم خصوصی را رعایت می‌کند (به‌صورت پیش‌فرض بدون ردپا — متن شما هرگز ذخیره یا برای آموزش استفاده نمی‌شود). سطح رایگان ۲ میلیون کاراکتر در ماه را پوشش می‌دهد. منطقه فقط برای منابع غیرجهانی لازم است.</string>
+	 <string name="translation_microsoft_key">کلید اشتراک</string>
+	 <string name="translation_microsoft_region">منطقه (مثلاً westeurope، برای جهانی خالی بگذارید)</string>
+	 <string name="translation_microsoft_save">ذخیره‌ی اعتبارنامه</string>
+	 <string name="translation_microsoft_saved">اعتبارنامه‌ی مترجم مایکروسافت ذخیره شد</string>
+	 <string name="translation_microsoft_get_free_key">دریافت کلید رایگان آژور ←</string>
+	
+	<!-- E1: External import wizard -->
+	 <string name="external_import_top_bar_title">وارد کردن برنامه‌های نصب‌شده</string>
+	 <string name="external_import_top_bar_back">بازگشت</string>
+	 <string name="external_import_overflow_more">گزینه‌های بیشتر</string>
+	 <string name="external_import_overflow_skip_remaining">رد شدن از بقیه</string>
+	 <string name="external_import_progress_scanning">در حال اسکن برنامه‌های شما…</string>
+	 <string name="external_import_progress_auto_importing">در حال وارد کردن تطابق‌ها…</string>
+	 <string name="external_import_progress_working">در حال کار…</string>
+	 <string name="external_import_progress_skip">رد شدن و بررسی بعداً</string>
+	 <plurals name="external_import_progress_subtitle_count">
+	     <item quantity="one">بررسی شد: %1$d برنامه</item>
+	     <item quantity="other">بررسی شد: %1$d برنامه</item>
+	 </plurals>
+	 <string name="external_import_card_action_skip">رد شدن</string>
+	 <string name="external_import_card_action_link">اتصال</string>
+	 <string name="external_import_card_installer_chip">نصب‌شده از طریق %1$s</string>
+	 <string name="external_import_card_preselect_known_prefix">به نظر ما این برنامه</string>
+	 <string name="external_import_card_preselect_unknown">برای یافتن مخزن ضربه بزنید</string>
+	 <string name="external_import_card_owner_byline">توسط %1$s</string>
+	 <string name="external_import_card_expand_label">برای مشاهده‌ی سایر تطابق‌ها گسترش دهید</string>
+	 <string name="external_import_card_collapse_label">جمع کردن کارت</string>
+	 <string name="external_import_search_icon_label">جستجو در GitHub</string>
+	 <string name="external_import_search_empty">تطابقی یافت نشد</string>
+	 <string name="external_import_search_error_default">جستجو ناموفق بود</string>
+	 <plurals name="external_import_completion_headline">
+	     <item quantity="one">در حال پیگیری %1$d برنامه هستید.</item>
+	     <item quantity="other">در حال پیگیری %1$d برنامه هستید.</item>
+	 </plurals>
+	 <string name="external_import_completion_skipped_subline">%1$d رد شد — می‌توانید از تنظیمات، اسکن را دوباره اجرا کنید.</string>
+	 <string name="external_import_completion_action_view_all">مشاهده همه</string>
+	 <string name="external_import_empty_all_matched">همه تطبیق داده شدند.\nموردی برای اتصال وجود ندارد.</string>
+	 <string name="external_import_empty_done">انجام شد</string>
+	 <string name="external_import_empty_no_apps_title">هیچ برنامه‌ی مربوط به GitHub روی این دستگاه یافت نشد.</string>
+	 <string name="external_import_empty_no_apps_body">این یعنی همه‌ی برنامه‌ها از استور دیگری نصب شده‌اند، یا امکان مشاهده‌ی برنامه‌های نصب‌شده وجود ندارد.</string>
+	 <string name="external_import_empty_grant_permission">اعطای مجوز</string>
+	 <string name="external_import_empty_ok">باشه</string>
+	 <string name="external_import_permission_title">یافتن برنامه‌های شما از GitHub</string>
+	 <!-- سه پاراگراف با \n\n به هم وصل شده‌اند -->
+	 <string name="external_import_permission_body">ما می‌توانیم برنامه‌های نصب‌شده‌ی شما را اسکن کنیم و آن‌ها را با انتشارهای در GitHub تطبیق دهیم — تا به‌روزرسانی‌ها و شناسایی به‌صورت خودکار کار کنند.\n\nبرای این کار، باید ببینیم چه برنامه‌هایی دارید. بدون مجوز، فقط حدود ۵ برنامه قابل مشاهده است؛ با مجوز، همه‌ی آن‌ها قابل مشاهده خواهند بود.\n\nما هرگز بدون اجازه‌ی شما، لیست برنامه‌هایتان را به جایی ارسال نمی‌کنیم. تطبیق روی دستگاه شما انجام می‌شود. جستجوی اختیاری در سرور، فقط نام بسته و برچسب برنامه را ارسال می‌کند و در صورت در دسترس بودن، اثر انگشت امضا، منبع نصب و هر اشاره‌ای به مخزن GitHub که در manifest برنامه اعلام شده — هرگز لیست کامل برنامه‌های نصب‌شده ارسال نمی‌شود.</string>
+	 <string name="external_import_permission_continue">ادامه</string>
+	 <string name="external_import_permission_not_now">الان نه</string>
+	 <plurals name="external_import_proposal_banner_headline">
+	     <item quantity="one">%1$d برنامه از GitHub یافت شد</item>
+	     <item quantity="other">%1$d برنامه از GitHub یافت شد</item>
+	 </plurals>
+	 <string name="external_import_proposal_banner_body">برای پیگیری به‌روزرسانی‌ها در اینجا، آن‌ها را بررسی کنید.</string>
+	 <string name="external_import_proposal_banner_review">بررسی</string>
+	 <string name="external_import_proposal_banner_dismiss">بستن</string>
+	 <string name="external_import_match_confidence_a11y">میزان اطمینان تطبیق: %1$d درصد</string>
+	 <string name="external_import_match_confidence_chip">%1$d%%</string>
+	 <string name="external_import_error_link_failed">امکان اتصال این برنامه وجود ندارد — دوباره تلاش کنید.</string>
+	 <string name="external_import_error_link_network">امکان دسترسی به GitHub وجود ندارد. بعداً دوباره تلاش کنید.</string>
+	 <string name="external_import_error_scan_failed_default">اسکن ناموفق بود</string>
+	 <string name="external_import_installer_obtainium">Obtainium</string>
+	 <string name="external_import_installer_fdroid">F-Droid</string>
+	 <string name="external_import_installer_browser">مرورگر</string>
+	 <string name="external_import_installer_sideload">نصب دستی (Sideload)</string>
+	 <string name="external_import_installer_self">Komi Store</string>
+	 <string name="external_import_installer_unknown">منبع ناشناخته</string>
+	 <string name="external_import_search_placeholder_url">یک آدرس از github.com بچسبانید یا جستجو کنید…</string>
+	 <string name="external_import_undo_linked">%1$s متصل شد.</string>
+	 <string name="external_import_undo_skipped">%1$s رد شد.</string>
+	 <string name="external_import_undo_action">بازگردانی</string>
+	 <string name="external_import_undo_failed">امکان بازگردانی وجود ندارد — دوباره تلاش کنید.</string>
+	 <string name="external_import_card_action_more">تطابق‌های بیشتر</string>
+	 <string name="external_import_card_action_less">پنهان کردن تطابق‌ها</string>
+	 <plurals name="external_import_list_remaining">
+	     <item quantity="one">%1$d برنامه برای بررسی</item>
+	     <item quantity="other">%1$d برنامه برای بررسی</item>
+	 </plurals>
+	 <plurals name="external_import_auto_summary_headline">
+	     <item quantity="one">%1$d برنامه به‌صورت خودکار متصل شد</item>
+	     <item quantity="other">%1$d برنامه به‌صورت خودکار متصل شد</item>
+	 </plurals>
+	 <string name="external_import_auto_summary_body">آن‌ها با اطمینان بالا شناسایی شدند. می‌توانید تطابق‌های فردی را از صفحه‌ی جزئیات هر برنامه بازگردانید، یا همه را یکجا بازگردانید.</string>
+	 <plurals name="external_import_auto_summary_review_hint">
+	     <item quantity="one">%1$d مورد دیگر به نظر شما نیاز دارد.</item>
+	     <item quantity="other">%1$d مورد دیگر به نظر شما نیاز دارد.</item>
+	 </plurals>
+	 <string name="external_import_auto_summary_continue">ادامه</string>
+	 <string name="external_import_auto_summary_undo_all">بازگردانی همه</string>
+	 <string name="external_import_auto_summary_more_count">+%1$d مورد دیگر</string>
+	 <string name="external_import_list_add_manually">برنامه‌ی خود را نمی‌بینید؟ به‌صورت دستی اضافه کنید</string>
+	 <string name="external_import_empty_add_manually">افزودن برنامه از استور دیگر</string>
+	 <string name="external_import_rescan_menu">اسکن برای برنامه‌های GitHub</string>
+	 <!-- E1: Details unlink dialog -->
+	 <string name="details_unlink_external_app_menu">قطع اتصال از این مخزن</string>
+	 <string name="details_unlink_external_app_dialog_title">اتصال این برنامه قطع شود؟</string>
+	 <string name="details_unlink_external_app_dialog_body">پیگیری %1$s به‌عنوان برنامه‌ای که از این مخزن نصب شده، متوقف می‌شود. برنامه روی دستگاه شما باقی می‌ماند — فقط اتصال حذف می‌شود.</string>
+	 <string name="details_unlink_external_app_dialog_confirm">قطع اتصال</string>
+	 <string name="details_unlink_external_app_success">اتصال قطع شد. در اسکن بعدی، تطبیق جدیدی پیشنهاد خواهد شد.</string>
+	 <string name="details_unlink_external_app_failure">امکان قطع اتصال وجود ندارد — دوباره تلاش کنید.</string>
+	 <string name="details_linked_repo_banner_title">متصل به %1$s/%2$s</string>
+	 <string name="details_linked_repo_banner_body">اتصال دستی — تأییدشده توسط شما. برای اسکن مجدد، اتصال را قطع کنید.</string>
+	
+	 <!-- Details manual refresh -->
+	 <string name="details_refresh">به‌روزرسانی</string>
+	 <string name="details_refresh_cooldown">به‌روزرسانی (%1$d ثانیه)</string>
+	 <string name="details_refresh_more_options">اقدامات بیشتر</string>
+	 <string name="details_refresh_snackbar_cooldown">همین الان به‌روزرسانی کردید — %1$d ثانیه دیگر دوباره تلاش کنید.</string>
+	 <string name="details_refresh_snackbar_budget_exhausted">سرویس به‌روزرسانی مشغول است — %1$d ثانیه دیگر دوباره تلاش کنید.</string>
+	 <string name="details_refresh_snackbar_archived">این مخزن در GitHub آرشیو شده است.</string>
+	 <string name="details_refresh_snackbar_not_found">این مخزن دیگر در GitHub وجود ندارد.</string>
+	 <string name="details_refresh_snackbar_upstream">امکان به‌روزرسانی وجود ندارد. کمی دیگر دوباره تلاش کنید.</string>
+	 <string name="details_refresh_snackbar_generic">به‌روزرسانی ناموفق بود. دوباره تلاش کنید.</string>
+	
+	 <!-- Feedback -->
+	 <string name="feedback_title">ارسال بازخورد</string>
+	 <string name="feedback_close">بستن</string>
+	
+	 <!-- Feedback - Category -->
+	 <string name="feedback_category_label">دسته‌بندی</string>
+	 <string name="feedback_category_bug">باگ (Bug)</string>
+	 <string name="feedback_category_feature">درخواست قابلیت جدید</string>
+	 <string name="feedback_category_change">درخواست تغییر</string>
+	 <string name="feedback_category_other">سایر</string>
+	
+	 <!-- Feedback - Topic -->
+	 <string name="feedback_topic_label">موضوع</string>
+	 <string name="feedback_topic_install_update">نصب / به‌روزرسانی</string>
+	 <string name="feedback_topic_search">جستجو و کشف</string>
+	 <string name="feedback_topic_details">جزئیات مخزن</string>
+	 <string name="feedback_topic_auth">احراز هویت و حساب کاربری</string>
+	 <string name="feedback_topic_ui">رابط کاربری / تجربه‌ی کاربری (UI/UX)</string>
+	 <string name="feedback_topic_translation">ترجمه / زبان</string>
+	 <string name="feedback_topic_performance">عملکرد (Performance)</string>
+	 <string name="feedback_topic_other">سایر</string>
+	
+	 <!-- Feedback - Form fields -->
+	 <string name="feedback_field_title">عنوان</string>
+	 <string name="feedback_field_description">توضیحات</string>
+	 <string name="feedback_field_steps">مراحل بازتولید مشکل</string>
+	 <string name="feedback_field_expected_actual">رفتار مورد انتظار در مقابل رفتار واقعی</string>
+	 <string name="feedback_field_use_case">سناریوی استفاده</string>
+	 <string name="feedback_field_proposed_solution">راه‌حل پیشنهادی</string>
+	 <string name="feedback_field_current_behaviour">رفتار فعلی</string>
+	 <string name="feedback_field_desired_behaviour">رفتار مورد انتظار</string>
+	
+	 <!-- Feedback - Diagnostics -->
+	 <string name="feedback_diagnostics_header">اطلاعات تشخیصی (Diagnostics)</string>
+	 <string name="feedback_diagnostics_include">شامل شدن اطلاعات تشخیصی</string>
+	
+	 <!-- Feedback - Send actions -->
+	 <string name="feedback_send_via_email">ارسال ایمیل</string>
+	 <string name="feedback_send_via_github">باز کردن به‌عنوان Issue در GitHub</string>
+	 <string name="feedback_send_success_email">ممنون — در حال باز کردن برنامه‌ی ایمیل شما.</string>
+	 <string name="feedback_send_success_github">ممنون — در حال باز کردن مرورگر شما.</string>
+	 <string name="feedback_send_error">امکان باز کردن کانال بازخورد وجود ندارد: %1$s</string>
+	
+	 <!-- Tweaks feature - Custom forges -->
+	 <string name="custom_forges_entry_label">فورج‌های سفارشی (Custom forges)</string>
+	 <string name="custom_forges_dialog_title">فورج‌های سفارشی</string>
+	 <string name="custom_forges_dialog_help">نام میزبان یک نمونه‌ی Forgejo یا Gitea را وارد کنید (مثلاً git.example.com). Komi Store آدرس‌های این میزبان‌ها را در برگه‌ی اتصال دستی می‌پذیرد.</string>
+	 <string name="custom_forges_dialog_builtin_note">میزبان‌های Codeberg، gitea.com و git.disroot.org به‌صورت پیش‌فرض جستجو می‌شوند — نیازی نیست آن‌ها را اینجا اضافه کنید. این لیست فقط برای فورج‌های خودمیزبانِ (self-hosted) Forgejo یا Gitea شماست.</string>
+	 <string name="custom_forges_add_button">افزودن</string>
+	 <string name="custom_forges_empty">هنوز فورج سفارشی‌ای اضافه نشده است.</string>
+	 <string name="done">انجام شد</string>
+	
+	 <!-- Mirror picker -->
+	 <string name="mirror_picker_title">آینه‌ی دانلود (Download Mirror)</string>
+	 <string name="mirror_picker_description">برای دانلود فایل‌های انتشار استفاده می‌شود. درخواست‌ها به GitHub همیشه مستقیم ارسال می‌شوند. بیشتر کاربران بهتر است این گزینه را روی «GitHub مستقیم» نگه دارند.</string>
+	
+	 <!-- Mirror - Sections -->
+	 <string name="mirror_section_official">رسمی</string>
+	 <string name="mirror_section_community">اجتماعی (Community)</string>
+	
+	 <!-- Mirror - Statuses -->
+	 <string name="mirror_status_ok">%1$dms</string>
+	 <string name="mirror_status_degraded">%1$dms</string>
+	 <string name="mirror_status_down">(در دسترس نیست)</string>
+	 <string name="mirror_status_unknown">؟</string>
+	
+	 <!-- Mirror - Custom -->
+	 <string name="mirror_custom_label">آینه‌ی سفارشی…</string>
+	 <string name="mirror_custom_dialog_title">آینه‌ی سفارشی</string>
+	 <string name="mirror_custom_dialog_hint">https://your-mirror.example/{url}</string>
+	 <string name="mirror_custom_validation_https">قالب باید با https:// شروع شود</string>
+	 <string name="mirror_custom_validation_template">قالب باید دقیقاً یک‌بار شامل {url} باشد</string>
+	 <string name="mirror_custom_save">ذخیره</string>
+	
+	 <!-- Mirror - Test connection -->
+	 <string name="mirror_test_button">آزمایش گزینه‌ی انتخاب‌شده</string>
+	 <string name="mirror_test_success">در %1$dms پاسخ داد</string>
+	 <string name="mirror_test_http_error">آینه پاسخ %1$d را برگرداند</string>
+	 <string name="mirror_test_timeout">پس از ۵ ثانیه زمان به پایان رسید</string>
+	 <string name="mirror_test_dns_fail">امکان شناسایی میزبان وجود ندارد</string>
+	 <string name="mirror_test_other">ناموفق بود: %1$s</string>
+	
+	 <!-- Mirror - Footer hint -->
+	 <string name="mirror_deploy_your_own_hint">همه‌ی آینه‌ها خراب شده‌اند؟ می‌توانید ظرف ۵ دقیقه آینه‌ی خودتان را راه‌اندازی کنید — به مستندات مراجعه کنید.</string>
+	
+	 <!-- Mirror - Removed notice + verification -->
+	 <string name="mirror_removed_toast">%1$s دیگر در دسترس نیست، به GitHub مستقیم تغییر داده شد.</string>
+	
+	 <!-- Apps section -->
+	 <string name="apps_section_up_to_date">به‌روز</string>
+	 <string name="apps_section_count_suffix">· %1$d</string>
+	 <string name="apps_section_expand">گسترش بخش</string>
+	 <string name="apps_section_collapse">جمع کردن بخش</string>
+	 <string name="apps_section_state_expanded">گسترده‌شده</string>
+	 <string name="apps_section_state_collapsed">جمع‌شده</string>
+	 <string name="apps_compact_more_actions">اقدامات بیشتر برای %1$s</string>
+	 <string name="apps_menu_item_active">%1$s  ✓</string>
+	 <string name="apps_version_update">%1$s → %2$s</string>
+	 <string name="apps_version_dated">%1$s (%2$s)</string>
+	 <string name="apps_latest_version_placeholder">—</string>
+	 <string name="apps_variant_subtitle">%1$s  ·  %2$s</string>
+	 <string name="apps_section_header_cd">%1$s، %2$d، %3$s</string>
+	 <string name="apps_section_header_static_cd">%1$s، %2$d</string>
+	 <string name="apps_compact_status_filter_active">فیلتر مونوریپو فعال است</string>
+	 <string name="apps_compact_status_variant_pinned">نوع سنجاق‌شده</string>
+	 <string name="apps_compact_status_pre_release_on">پیش‌انتشار فعال است</string>
+	 <string name="apps_compact_status_variant_stale">نوع قدیمی شده، اقدام لازم است</string>
+	 <string name="apps_compact_status_pending_install">در انتظار نصب</string>
+	 <string name="apps_compact_status_ready_to_install">آماده‌ی نصب</string>
+	 <string name="apps_compact_status_updates_ignored">به‌روزرسانی‌ها نادیده گرفته شده‌اند</string>
+	 <string name="apps_ignore_updates">نادیده گرفتن به‌روزرسانی‌ها</string>
+	 <string name="discard_pending_install">لغو نصب در انتظار</string>
+	 <string name="apps_updates_banner_title_one">۱ به‌روزرسانی موجود است</string>
+	 <string name="apps_updates_banner_title_other">%1$d به‌روزرسانی موجود است</string>
+	 <string name="apps_updates_banner_subtitle">همه را یک‌جا بررسی یا به‌روزرسانی کنید.</string>
+	 <string name="apps_updates_banner_show">مشاهده‌ی لیست</string>
+	 <string name="apps_updates_banner_hide">پنهان کردن لیست</string>
+	 <string name="apps_section_pending_installs">آماده‌ی نصب</string>
+	 <string name="apps_two_pane_empty_title">یک برنامه را انتخاب کنید</string>
+	 <string name="apps_two_pane_empty_subtitle">هر برنامه‌ای را در سمت چپ انتخاب کنید تا جزئیات و اقداماتش را ببینید.</string>
+	 <string name="apps_two_pane_detail_section_status">وضعیت</string>
+	 <string name="apps_two_pane_detail_section_actions">اقدامات سریع</string>
+	 <string name="apps_two_pane_detail_section_settings">تنظیمات</string>
+	 <string name="apps_two_pane_open_repo">باز کردن مخزن</string>
+	 <string name="apps_two_pane_installed_label">نصب‌شده</string>
+	 <string name="apps_two_pane_latest_label">آخرین نسخه</string>
+	 <string name="apps_two_pane_pick_variant">انتخاب نوع</string>
+	 <string name="apps_two_pane_advanced_settings">تنظیمات پیشرفته</string>
+	 <string name="adaptive_pick_repo_title">یک مخزن را انتخاب کنید</string>
+	 <string name="adaptive_pick_repo_subtitle">روی هر کارتی در سمت چپ بزنید تا جزئیاتش را اینجا ببینید.</string>
+	
+	 <!-- Translation card -->
+	 <string name="translation_card_title">ترجمه</string>
+	 <string name="translation_card_subtitle_idle">این صفحه را به زبان دیگری نمایش بده.</string>
+	 <string name="translation_card_subtitle_translating">در حال ترجمه…</string>
+	 <string name="translation_card_subtitle_translated">به %1$s ترجمه شد</string>
+	 <string name="translation_card_subtitle_original">نمایش نسخه‌ی اصلی</string>
+	 <string name="translation_card_target_label">زبان مقصد</string>
+	 <string name="translation_card_translate_to">ترجمه به %1$s</string>
+	 <string name="translation_card_show_original">نمایش نسخه‌ی اصلی</string>
+	 <string name="translation_card_show_translation">نمایش ترجمه</string>
+	 <string name="translation_card_cancel">انصراف</string>
+	 <string name="translation_card_retry">تلاش مجدد</string>
+	 <string name="translation_card_detected_source">زبان مبدأ شناسایی‌شده: %1$s</string>
+	 <string name="translation_card_change_language">تغییر زبان</string>
+	
+	 <!-- Search filters -->
+	 <string name="search_filters_button">فیلترها</string>
+	 <string name="search_filters_title">فیلتر کردن نتایج</string>
+	 <string name="search_filters_section_source">منبع</string>
+	 <string name="search_filters_section_platform">پلتفرم</string>
+	 <string name="search_filters_section_language">زبان</string>
+	 <string name="search_filters_section_sort">مرتب‌سازی بر اساس</string>
+	 <string name="search_filters_reset">بازنشانی همه</string>
+	 <string name="search_filters_apply">انجام شد</string>
+	 <string name="search_clear_filter_cd">حذف فیلتر</string>
+	 <string name="profile_tweaks_description">تنظیمات برنامه، تم، شبکه، ترجمه و گزینه‌های پیشرفته.</string>
+	
+	 <!-- Tweaks redesign (P12.5) -->
+	 <string name="section_connectivity">اتصال</string>
+	 <string name="section_privacy_and_data">حریم خصوصی و داده‌ها</string>
+	 <string name="section_app_block">برنامه</string>
+	 <string name="section_installs_and_updates">نصب و به‌روزرسانی‌ها</string>
+	 <string name="section_look_and_feel">ظاهر و طراحی</string>
+	 <string name="profile_section_library">کتابخانه</string>
+	 <string name="profile_section_updates">به‌روزرسانی‌ها</string>
+	 <string name="profile_section_account">حساب کاربری</string>
+	 <string name="appearance_section_mode">حالت</string>
+	 <string name="appearance_section_paper">پس‌زمینه</string>
+	 <string name="paper_day">روز</string>
+	 <string name="paper_night">شب</string>
+	 <string name="paper_nord">Nord</string>
+	 <string name="appearance_section_display">نمایشگر</string>
+	 <string name="auth_more_signin_options">گزینه‌های بیشتر ورود</string>
+	 <string name="auth_hide_signin_options">پنهان کردن گزینه‌ها</string>
+	 <string name="tweaks_sources_platforms_title">پلتفرم‌های کشف</string>
+	 <string name="tweaks_sources_platforms_body">فید صفحه‌ی اصلی را به پلتفرم‌های خاصی محدود کنید. برای دیدن همه چیز، همه را غیرفعال نگه دارید.</string>
+	 <string name="profile_entry_about_title">درباره</string>
+	 <string name="profile_entry_about_subtitle">نسخه، جامعه، موارد حقوقی</string>
+	 <string name="tweaks_entry_appearance">ظاهر</string>
+	 <string name="tweaks_entry_language">زبان</string>
+	 <string name="tweaks_entry_connection">اتصال</string>
+	 <string name="tweaks_entry_sources">منابع</string>
+	 <string name="tweaks_entry_translation">ترجمه</string>
+	 <string name="tweaks_entry_install_method">روش نصب</string>
+	 <string name="tweaks_entry_updates">رفتار به‌روزرسانی</string>
+	 <string name="tweaks_entry_storage">فضای ذخیره‌سازی</string>
+	 <string name="tweaks_entry_privacy">حریم خصوصی</string>
+	 <string name="tweaks_entry_access_tokens">توکن‌های دسترسی</string>
+	 <string name="tweaks_entry_app_info">اطلاعات برنامه</string>
+	 <string name="tweaks_entry_feedback">ارسال بازخورد</string>
+	 <string name="tweaks_entry_subtitle_tap">برای مدیریت ضربه بزنید</string>
+	 <string name="tweaks_search_placeholder">جستجوی تنظیمات</string>
+	 <string name="tweaks_search_empty">هیچ تنظیماتی با '%1$s' مطابقت ندارد.</string>
+	 <string name="feedback_hub_subtitle">ما هر گزارش را می‌خوانیم.</string>
+	 <string name="restart_banner_body">بعضی تغییرات برای اعمال شدن به راه‌اندازی مجدد نیاز دارند.</string>
+	 <string name="restart_banner_reasons_prefix">موارد تحت تأثیر: %1$s</string>
+	 <string name="restart_banner_reason_language">زبان</string>
+	 <string name="restart_banner_reason_theme">تم</string>
+	 <string name="restart_banner_restart_now">اکنون راه‌اندازی مجدد شود</string>
+	 <string name="restart_banner_later">بعداً</string>
+	 <string name="tweaks_install_method_desktop_empty_title">روش نصب فقط برای اندروید است</string>
+	 <string name="tweaks_install_method_desktop_empty_body">نصب‌کننده‌های بی‌صدا و شناسایی نصب‌کننده، ویژگی‌های اندروید هستند. نصب‌های دسکتاپ از طریق مدیر بسته‌ی سیستم‌عامل انجام می‌شوند.</string>
+	 <string name="tweaks_stub_coming_soon_title">در به‌روزرسانی بعدی</string>
+	 <string name="tweaks_stub_coming_soon_body">این صفحه بخشی از بازطراحی در حال انجام است. تنظیمات همچنان کار می‌کنند — فقط دارند از چیدمان قدیمی به اینجا منتقل می‌شوند.</string>
+	 <string name="back_cd">بازگشت</string>
+	
+	 <!-- Menubar -->
+	 <string name="menubar_file_menu">فایل</string>
+	 <string name="menubar_go_menu">برو</string>
+	 <string name="menubar_file_quit">خروج</string>
+	 <string name="menubar_help_menu">راهنما</string>
+	 <string name="menubar_help_about">درباره‌ی Komi Store</string>
+	 <string name="menubar_help_feedback">ارسال بازخورد…</string>
+	 <string name="menubar_help_licenses">مجوزهای اوپن‌سورس</string>
+	 <string name="menubar_help_privacy">سیاست حریم خصوصی</string>
+	
+	 <!-- APK Inspect feature -->
+	 <string name="apk_inspect_title">بازرسی APK</string>
+	 <string name="apk_inspect_button_label">بازرسی APK</string>
+	 <string name="apk_inspect_coachmark_title">قبل از نصب، نگاهی به داخل بیندازید</string>
+	 <string name="apk_inspect_coachmark_body">مجوزها، امضا، کامپوننت‌ها — دقیقاً ببینید APK چه چیزی اعلام می‌کند.</string>
+	 <string name="apk_inspect_coachmark_dismiss">فهمیدم</string>
+	 <string name="apk_inspect_empty">هنوز چیزی برای بازرسی این برنامه وجود ندارد.</string>
+	 <string name="apk_inspect_source_file">فایل پارک‌شده (Parked)</string>
+	 <string name="apk_inspect_source_installed">بسته‌ی نصب‌شده</string>
+	 <string name="apk_inspect_identity">هویت</string>
+	 <string name="apk_inspect_compatibility">سازگاری</string>
+	 <string name="apk_inspect_permissions">مجوزها (%1$d)</string>
+	 <string name="apk_inspect_permissions_title">مجوزها</string>
+	 <string name="apk_inspect_permissions_empty">هیچ مجوزی اعلام نشده است.</string>
+	 <string name="apk_inspect_components">کامپوننت‌ها (Components)</string>
+	 <string name="apk_inspect_file_info">فایل</string>
+	 <string name="apk_inspect_version_code">نسخه</string>
+	 <string name="apk_inspect_signing">اثر انگشت امضا (Signing fingerprint)</string>
+	 <string name="apk_inspect_min_sdk">حداقل SDK</string>
+	 <string name="apk_inspect_target_sdk">SDK هدف</string>
+	 <string name="apk_inspect_size">حجم</string>
+	 <string name="apk_inspect_section_activities">اکتیویتی‌ها (Activities)</string>
+	 <string name="apk_inspect_section_services">سرویس‌ها (Services)</string>
+	 <string name="apk_inspect_section_receivers">گیرنده‌ها (Receivers)</string>
+	 <string name="apk_inspect_section_main_activity">اکتیویتی اصلی</string>
+	 <string name="apk_inspect_debuggable">ساخت قابل دیباگ — اگر این یک نسخه‌ی انتشار است، مشکوک به نظر می‌رسد.</string>
+	 <string name="apk_inspect_protection_dangerous">حساس (Sensitive)</string>
+	 <string name="apk_inspect_protection_signature">امضا (Signature)</string>
+	 <string name="apk_inspect_protection_privileged">دارای امتیاز (Privileged)</string>
+	 <string name="apk_inspect_protection_normal">عادی (Normal)</string>
+	 <string name="apk_inspect_protection_unknown">ناشناخته</string>
+	
+	 <!-- What's New feature -->
+	 <string name="whats_new_title">چه چیز جدیدی؟</string>
+	 <string name="whats_new_sheet_heading">چه چیز جدیدی در %1$s</string>
+	 <string name="whats_new_version_label">نسخه‌ی %1$s · %2$s</string>
+	 <string name="whats_new_section_new">جدید</string>
+	 <string name="whats_new_section_improved">بهبودیافته</string>
+	 <string name="whats_new_section_fixed">اصلاح‌شده</string>
+	 <string name="whats_new_section_heads_up">توجه</string>
+	 <string name="whats_new_cta_dismiss">فهمیدم</string>
+	 <string name="whats_new_cta_history">مشاهده‌ی نسخه‌های قبلی</string>
+	 <string name="whats_new_history_empty">هنوز هیچ ورودی در گزارش تغییرات وجود ندارد.</string>
+	 <string name="whats_new_profile_description">نکات برجسته‌ی انتشارهای اخیر.</string>
+	
+	 <!-- Announcements feature -->
+	 <string name="announcements_title">اطلاعیه‌ها</string>
+	 <string name="announcements_profile_description">اخبار، نظرسنجی‌ها و اطلاعیه‌های مهم.</string>
+	 <string name="announcements_empty">در حال حاضر چیزی برای اشتراک‌گذاری وجود ندارد.</string>
+	 <string name="announcements_refresh_failed">امکان به‌روزرسانی وجود ندارد — موارد کش‌شده نمایش داده می‌شوند.</string>
+	 <string name="announcements_acknowledge">این را خواندم</string>
+	 <string name="announcements_acknowledged">تأیید شد</string>
+	 <string name="announcements_read_more">ادامه مطلب</string>
+	 <string name="announcements_view_details">مشاهده‌ی جزئیات</string>
+	 <string name="announcements_mute_settings_title">نمایش موارد از</string>
+	 <string name="announcements_mute_locked">قابل غیرفعال‌سازی نیست</string>
+	 <string name="announcements_category_news">اخبار</string>
+	 <string name="announcements_category_privacy">حریم خصوصی</string>
+	 <string name="announcements_category_survey">نظرسنجی‌ها</string>
+	 <string name="announcements_category_security">امنیت</string>
+	 <string name="announcements_category_status">وضعیت</string>
+	 <string name="announcements_severity_info">اطلاعات</string>
+	 <string name="announcements_severity_important">مهم</string>
+	 <string name="announcements_severity_critical">بحرانی</string>
+	 <string name="announcements_open_mute_settings">باز کردن تنظیمات بی‌صدا</string>
+	
+	 <!-- Skip this version (issue #542) -->
+	 <string name="apps_skip_version">رد کردن این نسخه</string>
+	 <string name="apps_skip_version_unskip">رد نکردن</string>
+	 <string name="apps_skip_version_snackbar">%1$s رد شد — هنگام رسیدن نسخه‌ی جدیدتر اطلاع‌رسانی خواهید شد</string>
+	 <string name="apps_unskip_version_snackbar">اعلان به‌روزرسانی دوباره فعال شد</string>
+	 <string name="apps_skip_version_error">امکان به‌روزرسانی تنظیمات رد کردن وجود ندارد</string>
+	 <string name="apps_unskip_version_error">امکان بازیابی اعلان به‌روزرسانی وجود ندارد</string>
+	 <string name="skipped_updates_entry_title">به‌روزرسانی‌های ردشده</string>
+	 <string name="skipped_updates_entry_description">نسخه‌هایی که انتخاب کرده‌اید نادیده گرفته شوند</string>
+	 <string name="skipped_updates_title">به‌روزرسانی‌های ردشده</string>
+	 <string name="skipped_updates_empty_title">نسخه‌ی ردشده‌ای وجود ندارد</string>
+	 <string name="skipped_updates_empty_description">وقتی در صفحه‌ی برنامه‌ها یک به‌روزرسانی را رد می‌کنید، ورودی آن اینجا نمایش داده می‌شود تا بتوانید آن را بازگردانید.</string>
+	 <string name="skipped_updates_skipped_label">ردشده: %1$s</string>
+	 <string name="skipped_updates_installed_label">نصب‌شده: %1$s</string>
+	 <string name="skipped_updates_unskip_action">رد نکردن</string>
+	 <string name="skipped_updates_unskipped_snackbar">اعلان به‌روزرسانی برای %1$s فعال شد</string>
+	 <string name="skipped_updates_unskip_failure">امکان به‌روزرسانی تنظیمات رد کردن وجود ندارد</string>
+	
+	 <!-- Keep Android Open banner -->
+	 <string name="kao_banner_title">اندروید را باز نگه دارید</string>
+	 <string name="kao_banner_body">سیاست تأیید توسعه‌دهنده‌ی گوگل، توزیع باز اندروید را تهدید می‌کند. Komi Store در کنار این ائتلاف ایستاده است.</string>
+	 <string name="kao_banner_cta">اطلاعات بیشتر</string>
+	 <string name="kao_banner_dismiss_cd">بستن بنر</string>
+	
+	 <!-- Auto-translate -->
+	 <string name="translation_auto_title">ترجمه‌ی خودکار مخازن</string>
+	 <string name="translation_auto_subtitle">README و یادداشت‌های انتشار هنگام باز کردن یک مخزن به‌صورت خودکار ترجمه شوند. از زبان برنامه به‌عنوان مقصد استفاده می‌کند.</string>
+	 <string name="translation_auto_target_label">ترجمه به</string>
+	 <string name="translation_auto_target_followup">پیروی از زبان برنامه (%1$s)</string>
+	
+	 <!-- Host tokens -->
+	 <string name="host_tokens_title">توکن‌های احراز هویت</string>
+	 <string name="host_tokens_entry_subtitle">توکن‌های دسترسی شخصی (Personal Access Tokens) برای هر میزبان فورج (GitHub, Codeberg, Forgejo)</string>
+	 <string name="host_tokens_empty_title">توکنی ذخیره نشده است</string>
+	 <string name="host_tokens_empty_subtitle">برای افزودن یک توکن دسترسی شخصی، روی + ضربه بزنید</string>
+	 <string name="host_tokens_field_token">توکن دسترسی شخصی</string>
+	 <string name="host_tokens_field_display_name">نام نمایشی (اختیاری)</string>
+	 <string name="host_tokens_validation_host_required">میزبان الزامی است</string>
+	 <string name="host_tokens_validation_host_invalid">میزبان نامعتبر است</string>
+	 <string name="host_tokens_validation_token_required">توکن الزامی است</string>
+	 <string name="host_tokens_validation_token_short">توکن خیلی کوتاه است</string>
+	 <string name="host_tokens_action_save">ذخیره</string>
+	 <string name="host_tokens_action_cancel">انصراف</string>
+	 <string name="host_tokens_action_back">بازگشت</string>
+	 <string name="host_tokens_action_add">افزودن توکن</string>
+	 <string name="host_tokens_action_delete">حذف</string>
+	 <string name="host_tokens_saved">توکن برای %1$s ذخیره شد</string>
+	 <string name="host_tokens_validation_failed">اعتبارسنجی ناموفق بود: %1$s</string>
+	
+	 <!-- Host tokens — picker / forge presets / inline feedback / undo -->
+	 <string name="host_tokens_picker_title">افزودن توکن برای…</string>
+	 <string name="host_tokens_picker_other">فورج دیگر</string>
+	 <string name="host_tokens_picker_other_subtitle">Forgejo، Gitea، خودمیزبان (Self-hosted)</string>
+	 <string name="host_tokens_picker_open_page">باز کردن صفحه‌ی توکن</string>
+	 <string name="host_tokens_picker_paste">چسباندن توکن</string>
+	 <string name="host_tokens_compose_field_forge_address">آدرس فورج</string>
+	 <string name="host_tokens_compose_will_connect">به %1$s متصل خواهد شد</string>
+	 <string name="host_tokens_compose_detected">شناسایی‌شده: %1$s</string>
+	 <string name="host_tokens_compose_replace_hint">برای حفظ توکن موجود، خالی بگذارید. برای جایگزینی، مقدار جدیدی تایپ کنید.</string>
+	 <string name="host_tokens_oauth_coexistence">شما از طریق برنامه با GitHub وارد شده‌اید — این روش پیشنهادی است. فقط در صورتی اینجا توکن اضافه کنید که ورود از طریق مرورگر کار نکند (شبکه‌ی محدود، نبود مرورگر) یا برای فورج‌های غیر از GitHub.</string>
+	 <string name="host_tokens_row_validate">بررسی</string>
+	 <string name="host_tokens_row_menu">بیشتر</string>
+	 <string name="host_tokens_row_edit_label">ویرایش برچسب</string>
+	 <string name="host_tokens_row_replace_token">جایگزینی توکن</string>
+	 <string name="host_tokens_row_open_token_page">مدیریت در %1$s</string>
+	 <string name="host_tokens_row_valid_short">معتبر · %1$s</string>
+	 <string name="host_tokens_row_valid_rate">%1$s باقی‌مانده</string>
+	 <string name="host_tokens_row_invalid_short">نامعتبر · %1$s</string>
+	 <string name="host_tokens_undo_snackbar">توکن برای %1$s حذف شد</string>
+	 <string name="host_tokens_undo_action">بازگردانی</string>
+	 <string name="host_tokens_compose_replace_title">جایگزینی توکن برای %1$s</string>
+	 <string name="host_tokens_compose_add_title">افزودن توکن</string>
+	 <string name="host_tokens_validation_failed_fallback">خطای ناشناخته</string>
+	 <string name="host_tokens_undo_failed">امکان بازیابی توکن برای %1$s وجود ندارد</string>
+	
+	 <!-- Tweaks redesign (P14/P15/P16) -->
+	 <string name="tweaks_connection_intro_title">چگونگی اتصال برنامه به اینترنت</string>
+	 <string name="tweaks_connection_intro_body">در زیر یک حالت اتصال انتخاب کنید. بیشتر کاربران این گزینه را روی «بدون پراکسی» می‌گذارند.</string>
+	 <string name="tweaks_connection_main_section">اتصال اصلی</string>
+	 <string name="tweaks_connection_overrides_section">تنظیمات اختصاصی هر بخش</string>
+	 <string name="tweaks_connection_overrides_body">هر بخش به‌صورت پیش‌فرض از اتصال اصلی استفاده می‌کند. برای داشتن تنظیمات مستقل، «سفارشی» را انتخاب کنید.</string>
+	 <string name="tweaks_connection_applies_to_all">روی همه‌ی ترافیک اعمال می‌شود، مگر اینکه در زیر جایگزین شود.</string>
+	 <string name="tweaks_connection_paste_url">چسباندن آدرس کامل</string>
+	 <string name="tweaks_connection_paste_url_title">چسباندن آدرس پراکسی</string>
+	 <string name="tweaks_connection_paste_url_body">آدرس کامل پراکسی را بچسبانید تا فرم را برای شما پر کنیم.</string>
+	 <string name="tweaks_connection_paste_url_placeholder">scheme://user:pass@host:port</string>
+	 <string name="tweaks_connection_paste_url_error">امکان خواندن این آدرس وجود ندارد.</string>
+	 <string name="tweaks_connection_paste_url_cta">استفاده از این آدرس</string>
+	 <string name="tweaks_connection_scope_discovery_title">جستجو و ابرداده (Metadata)</string>
+	 <string name="tweaks_connection_scope_discovery_body">API GitHub، جستجو، جزئیات مخزن.</string>
+	 <string name="tweaks_connection_scope_download_title">دانلودها</string>
+	 <string name="tweaks_connection_scope_download_body">دانلود فایل‌های APK و فایل‌های انتشار.</string>
+	 <string name="tweaks_connection_scope_translation_title">ترجمه</string>
+	 <string name="tweaks_connection_scope_translation_body">فراخوانی‌های DeepL، Microsoft و LibreTranslate.</string>
+	 <string name="tweaks_connection_use_main">استفاده از اصلی</string>
+	 <string name="tweaks_connection_custom">سفارشی</string>
+	 <string name="tweaks_connection_test">آزمایش</string>
+	 <string name="tweaks_connection_mode_no_proxy">بدون پراکسی</string>
+	 <string name="tweaks_connection_mode_system">سیستم</string>
+	 <string name="tweaks_connection_mode_http">HTTP/HTTPS</string>
+	 <string name="tweaks_connection_mode_socks">SOCKS5</string>
+	 <string name="tweaks_connection_mode_http_caption">بیشتر پراکسی‌های سازمانی.</string>
+	 <string name="tweaks_connection_mode_socks_caption">Tor، تونل‌های SSH.</string>
+	 <string name="tweaks_sources_intro_title">کجاها برنامه دنبال مخزن می‌گردد</string>
+	 <string name="tweaks_sources_intro_body">برنامه به‌صورت پیش‌فرض در GitHub جستجو می‌کند. از طریق یک آینه‌ی منطقه‌ای مسیردهی کنید یا میزبان‌های سفارشی Forgejo / Gitea اضافه کنید.</string>
+	 <string name="tweaks_sources_added_hosts_section">میزبان‌های اضافه‌شده</string>
+	 <string name="tweaks_sources_mirror_default">پیش‌فرض (github.com)</string>
+	 <string name="tweaks_sources_add_a_host">افزودن میزبان Forgejo یا Gitea</string>
+	 <string name="tweaks_sources_github_mirror_title">آینه‌ی GitHub</string>
+	 <string name="tweaks_privacy_browsing_history_section">تاریخچه‌ی مرور</string>
+	 <string name="tweaks_privacy_usage_data_section">داده‌های استفاده</string>
+	 <string name="tweaks_privacy_clipboard_title">شناسایی لینک مخزن در کلیپ‌بورد</string>
+	 <string name="tweaks_privacy_clipboard_body">وقتی یک لینک github.com یا codeberg.org را کپی می‌کنید، از شما می‌پرسیم که باز شود یا خیر.</string>
+	 <string name="tweaks_privacy_hide_seen_title">پنهان کردن مخازنی که قبلاً دیده‌ام</string>
+	 <string name="tweaks_privacy_hide_seen_body">رد شدن از مخازن دیده‌شده در فیدها و جستجو.</string>
+	 <string name="tweaks_privacy_clear_viewed_title">پاک کردن تاریخچه‌ی مشاهده</string>
+	 <string name="tweaks_privacy_clear_viewed_body">فراموش کردن اینکه کدام مخازن را قبلاً باز کرده‌اید.</string>
+	 <string name="tweaks_privacy_clear_viewed_dialog_title">تاریخچه‌ی مشاهده پاک شود؟</string>
+	 <string name="tweaks_privacy_clear_viewed_dialog_body">این کار ستاره یا علاقه‌مندی‌های شما را تغییر نمی‌دهد.</string>
+	 <string name="tweaks_privacy_clear_viewed_dialog_confirm">پاک کردن</string>
+	 <string name="tweaks_privacy_hidden_repos_title">مخازن پنهان‌شده</string>
+	 <string name="tweaks_privacy_hidden_repos_body">مخازنی که از فیدها و جستجو بی‌صدا کرده‌اید.</string>
+	 <string name="tweaks_storage_downloaded_apks_title">فایل‌های APK دانلودشده</string>
+	 <string name="tweaks_storage_downloaded_apks_body">نصب‌کننده‌ها را نگه می‌داریم تا به‌روزرسانی‌ها سریع‌تر از سر گرفته شوند.</string>
+	 <string name="tweaks_storage_using_label">در حال استفاده: %1$s</string>
+	 <string name="tweaks_storage_downloaded_apks_clear">پاک کردن</string>
+	 <string name="tweaks_storage_empty_size">۰ بایت</string>
+	 <string name="tweaks_app_info_app_name">Komi Store</string>
+	 <string name="tweaks_app_info_tagline">استور کراس‌پلتفرم برای انتشارهای GitHub، Codeberg و Forgejo.</string>
+	 <string name="tweaks_app_info_community_section">ارتباط</string>
+	 <string name="tweaks_app_info_community_title">پیوستن به جامعه</string>
+	 <string name="tweaks_app_info_community_subtitle">۶ مکان</string>
+	 <string name="tweaks_app_info_community_business_title">درخواست‌های تجاری</string>
+	 <string name="tweaks_app_info_community_business_subtitle">همکاری، رسانه‌ها، یکپارچه‌سازی.</string>
+	 <string name="tweaks_app_info_community_business_cta">تماس</string>
+	 <string name="tweaks_app_info_whats_new_title">چه چیز جدیدی</string>
+	 <string name="tweaks_app_info_whats_new_subtitle">یادداشت‌های انتشارهای گذشته.</string>
+	 <string name="tweaks_app_info_licenses_title">مجوزهای اوپن‌سورس</string>
+	 <string name="tweaks_app_info_licenses_subtitle">کتابخانه‌های استفاده‌شده در برنامه.</string>
+	 <string name="tweaks_app_info_privacy_policy_title">سیاست حریم خصوصی</string>
+	 <string name="tweaks_app_info_privacy_policy_subtitle">مشاهده در github-store.org.</string>
+	 <string name="tweaks_app_info_source_code_title">سورس‌کد در GitHub</string>
+	 <string name="tweaks_app_info_source_code_subtitle">مشاهده‌ی سورس این برنامه.</string>
+	 <string name="tweaks_language_intro_body">برنامه هنگام تغییر زبان راه‌اندازی مجدد می‌شود.</string>
+	 <string name="tweaks_licenses_title">مجوزهای اوپن‌سورس</string>
+	 <string name="tweaks_licenses_intro_title">Komi Store بر پایه‌ی این کتابخانه‌ها ساخته شده است.</string>
+	 <string name="tweaks_licenses_intro_body">برای باز کردن صفحه‌ی پروژه‌ی هر مورد، روی آن ضربه بزنید.</string>
+	
+	 <!-- Onboarding -->
+	 <string name="onboarding_palette_title">پالت رنگی خود را انتخاب کنید</string>
+	 <string name="onboarding_palette_subtitle">چهار پالت × روشن، تاریک، AMOLED، سیستم.</string>
+	 <string name="onboarding_signin_subtitle">ستاره‌ها، پروفایل و سهمیه‌ی بیشتر برای محدودیت درخواست. اختیاری — برای مرور ناشناس رد شوید.</string>
+	 <string name="onboarding_signin_button">ورود</string>
+	 <string name="onboarding_permissions_title">دو درخواست سریع</string>
+	 <string name="onboarding_permissions_subtitle">هر دو اختیاری. بعداً می‌توانید این‌ها را در تنظیمات تغییر دهید.</string>
+	 <string name="onboarding_permission_notifications">اعلان‌ها</string>
+	 <string name="onboarding_permission_notifications_desc">هشدارهای به‌روزرسانی و پیشرفت نصب</string>
+	 <string name="onboarding_permission_install">نصب برنامه‌های ناشناس</string>
+	 <string name="onboarding_permission_install_desc">برای نصب APK خارج از Play Store الزامی است</string>
+	 <string name="onboarding_permission_granted">اعطا شده</string>
+	 <string name="onboarding_permission_allow">اجازه دادن</string>
+	 <string name="onboarding_skip">رد شدن</string>
+	 <string name="onboarding_get_started">شروع کنید</string>
+	 <string name="onboarding_next">بعدی</string>
+	
+	 <!-- Developer profile -->
+	 <string name="dev_profile_contribution_activity">فعالیت‌های مشارکت</string>
+	 <string name="dev_profile_contributions_this_year">%1$d امسال</string>
+	 <string name="dev_profile_contributions_load_failed">بارگذاری مشارکت‌ها ناموفق بود.</string>
+	 <string name="dev_profile_contributions_less">کمتر</string>
+	 <string name="dev_profile_contributions_more">بیشتر</string>
+	 <string name="dev_profile_org_badge">سازمان</string>
+	
+	 <!-- Common -->
+	 <string name="loading">در حال بارگذاری…</string>
+	 <string name="failed_to_load">بارگذاری ناموفق بود</string>
+	 <string name="failed_to_load_details">بارگذاری جزئیات ناموفق بود</string>
+	
+	 <!-- Tweaks: licenses / app info / custom forges -->
+	 <string name="tweaks_licenses_load_failed">بارگذاری مجوزها ناموفق بود.</string>
+	 <string name="tweaks_app_info_website">وب‌سایت</string>
+	 <string name="tweaks_clear_downloads_failed">پاک کردن دانلودها ناموفق بود</string>
+	 <string name="tweaks_custom_forge_invalid_hostname">یک نام میزبان معتبر وارد کنید (مثلاً forgejo.example.com).</string>
+	 <string name="tweaks_custom_forge_save_failed">ذخیره‌ی میزبان ناموفق بود. دوباره تلاش کنید.</string>
+	 <string name="tweaks_custom_forge_remove_failed">حذف میزبان ناموفق بود. دوباره تلاش کنید.</string>
+	
+	 <!-- Repo pages: issues -->
+	 <string name="repo_pages_issues_title">مشکلات (Issues)</string>
+	 <string name="repo_pages_issues_filter_open">باز</string>
+	 <string name="repo_pages_issues_filter_closed">بسته</string>
+	 <string name="repo_pages_issues_empty_open">مشکل بازی وجود ندارد.</string>
+	 <string name="repo_pages_issues_empty_closed">مشکل بسته‌شده‌ای وجود ندارد.</string>
+	 <string name="repo_pages_issue_comments_section">نظرات</string>
+	 <string name="repo_pages_issue_no_body">توضیحی ارائه نشده است.</string>
+	 <string name="repo_pages_issue_opened_by">باز شده توسط %1$s</string>
+	
+	 <!-- Repo pages: security -->
+	 <string name="repo_pages_security_title">امنیت</string>
+	 <string name="repo_pages_security_advisories_header">هشدارهای امنیتی</string>
+	 <string name="repo_pages_security_no_advisories">هشداری منتشر نشده است.</string>
+	 <string name="repo_pages_security_policy_header">سیاست امنیتی</string>
+	 <string name="repo_pages_security_no_policy">سیاست امنیتی منتشر نشده است.</string>
+	 <string name="repo_pages_severity_critical">بحرانی</string>
+	 <string name="repo_pages_severity_high">بالا</string>
+	 <string name="repo_pages_severity_medium">متوسط</string>
+	 <string name="repo_pages_severity_low">پایین</string>
+	 <string name="repo_pages_severity_unknown">ناشناخته</string>
+	
+	 <!-- Repo pages: details entry -->
+	 <string name="repo_pages_details_issues_button">مشکلات</string>
+	 <string name="repo_pages_details_security_button">امنیت</string>
+	 <string name="repo_pages_details_pulls_button">درخواست‌های ادغام (Pull requests)</string>
+	
+	 <!-- Repo interactions: star -->
+	 <string name="star_added">ستاره داده شد</string>
+	 <string name="star_removed">ستاره برداشته شد</string>
+	 <string name="star_sign_in_required">برای ستاره دادن به مخازن وارد شوید.</string>
+	
+	 <!-- Repo interactions: comments -->
+	 <string name="repo_pages_comment_hint">افزودن نظر…</string>
+	 <string name="repo_pages_comment_send">ارسال</string>
+	 <string name="repo_pages_comment_sign_in">برای نظر دادن وارد شوید.</string>
+	 <string name="repo_pages_comment_failed">ارسال نظر ناموفق بود.</string>
+	 <string name="repo_pages_comment_posted">نظر ارسال شد</string>
+	
+	 <!-- Repo interactions: new issue -->
+	 <string name="repo_pages_new_issue">مشکل جدید</string>
+	 <string name="repo_pages_new_issue_title_hint">عنوان</string>
+	 <string name="repo_pages_new_issue_body_hint">مشکل را توصیف کنید…</string>
+	 <string name="repo_pages_new_issue_submit">ایجاد</string>
+	 <string name="repo_pages_new_issue_sign_in">برای باز کردن مشکل وارد شوید.</string>
+	 <string name="repo_pages_new_issue_failed">ایجاد مشکل ناموفق بود.</string>
+	 <string name="repo_pages_new_issue_created">مشکل ایجاد شد</string>
+	
+	 <!-- Repo interactions: reactions -->
+	 <string name="repo_pages_react_sign_in">برای واکنش نشان دادن وارد شوید.</string>
+	 <string name="repo_pages_react_failed">افزودن واکنش ناموفق بود.</string>
+	 <string name="cd_thumbs_up">لایک</string>
+	
+	 <!-- Repo pages: pull requests -->
+	 <string name="repo_pages_pulls_title">درخواست‌های ادغام (Pull requests)</string>
+	 <string name="repo_pages_pulls_empty_open">درخواست ادغام بازی وجود ندارد.</string>
+	 <string name="repo_pages_pulls_empty_closed">درخواست ادغام بسته‌شده‌ای وجود ندارد.</string>
+	 <string name="repo_pages_pr_state_merged">ادغام‌شده</string>
+	 <string name="repo_pages_pr_draft">پیش‌نویس</string>
+	
+	 <!-- Feed (Home) -->
+	 <string name="bottom_nav_top_charts_title">برترین‌ها (Top Charts)</string>
+	 <string name="feed_masthead_title">Komi Store</string>
+	 <string name="feed_masthead_title_accent">Store</string>
+	 <string name="feed_masthead_subtitle">کشف برنامه‌ها · 発見 · DISCOVER APPS</string>
+	 <string name="feed_browsing">در حال مرور</string>
+	 <string name="feed_cd_search">جستجو</string>
+	 <string name="feed_cd_profile">پروفایل</string>
+	 <string name="feed_platform_picker_title">سیستم‌عامل خود را انتخاب کنید</string>
+	 <string name="feed_platform_picker_title_jp">پشتیبانی · 対応</string>
+	 <string name="feed_platform_all">همه‌ی پلتفرم‌ها</string>
+	 <string name="feed_loading">در حال بارگذاری آخرین‌ها…</string>
+	 <string name="feed_empty_title">هنوز چیزی اینجا نیست</string>
+	 <string name="feed_empty_subtitle">هنوز برنامه‌ی %1$s برای %2$s وجود ندارد.</string>
+	 <string name="feed_empty_reset">بازنشانی فیلترها</string>
+	 <string name="feed_offline">آفلاین — نمایش فید ذخیره‌شده</string>
+	 <string name="feed_failed_to_load">بارگذاری فید ناموفق بود</string>
+	 <string name="feed_end_cap">ادامه دارد · 続く · TO BE CONTINUED</string>
+	 <string name="feed_category_ai">هوش مصنوعی (AI)</string>
+	 <string name="feed_category_privacy">حریم خصوصی</string>
+	 <string name="feed_category_networking">شبکه</string>
+	 <string name="feed_category_media">رسانه</string>
+	 <string name="feed_category_social">اجتماعی</string>
+	 <string name="feed_category_reading">مطالعه</string>
+	 <string name="feed_category_tools">ابزارها</string>
+	 <string name="cd_more_actions">اقدامات بیشتر</string>
+	
+</resources>
