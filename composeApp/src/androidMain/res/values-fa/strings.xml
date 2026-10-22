@@ -1,1 +1,7 @@
-
+<resources>
+    <string name="shortcut_search">جستجو</string>
+    <string name="shortcut_library">کتابخانه</string>
+    <string name="shortcut_favourites">علاقه‌مندی‌ها</string>
+    <string name="shortcut_recently_viewed">اخیراً مشاهده‌شده</string>
+    <string name="shortcut_recent_short">اخیر</string>
+</resources>
