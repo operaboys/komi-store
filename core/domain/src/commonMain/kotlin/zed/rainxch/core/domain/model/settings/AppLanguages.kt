@@ -7,6 +7,7 @@ object AppLanguages {
             AppLanguage("ar", "العربية"),
             AppLanguage("bn", "বাংলা"),
             AppLanguage("es", "Español"),
+            AppLanguage("fa", "فارسی"),
             AppLanguage("fr", "Français"),
             AppLanguage("hi", "हिन्दी"),
             AppLanguage("it", "Italiano"),
