@@ -1,6 +1,7 @@
 package zed.rainxch.core.domain.repository
 
 import kotlinx.coroutines.flow.Flow
+import zed.rainxch.core.domain.model.account.github.GithubRelease
 import zed.rainxch.core.domain.model.installation.InstalledApp
 import zed.rainxch.core.domain.model.installation.ParkedInstallDisposal
 import zed.rainxch.core.domain.model.smart_detect.MatchingPreview
@@ -31,16 +32,25 @@ interface InstalledAppsRepository {
 
     suspend fun checkForUpdates(packageName: String): Boolean
 
+    // checkForUpdates on a release list the caller already read. A list without this app's
+    // release changes nothing.
+    suspend fun checkForUpdatesWithReleases(
+        packageName: String,
+        releases: List<GithubRelease>,
+    ): Boolean
+
     suspend fun resolveTrackedRelease(packageName: String): ResolvedRelease?
 
     suspend fun checkAllForUpdates()
 
+    @Suppress("LongParameterList")
     suspend fun updateAppVersion(
         packageName: String,
         newTag: String,
         newReleaseId: Long?,
         newAssetId: Long?,
         newAssetDigest: String?,
+        newReleasePublishedAt: String? = null,
         newAssetName: String?,
         newAssetUrl: String?,
         newVersionName: String,
@@ -112,6 +122,10 @@ interface InstalledAppsRepository {
         path: String,
         version: String?,
         assetName: String?,
+        releaseId: Long? = null,
+        assetId: Long? = null,
+        releasePublishedAt: String? = null,
+        assetDigest: String? = null,
     )
 
     suspend fun discardParkedInstall(

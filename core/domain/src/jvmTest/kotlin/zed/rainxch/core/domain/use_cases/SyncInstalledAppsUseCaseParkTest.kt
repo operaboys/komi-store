@@ -375,6 +375,11 @@ class SyncInstalledAppsUseCaseParkTest {
             apps = apps.map { if (it.packageName == app.packageName) app else it }
         }
 
+        override suspend fun checkForUpdatesWithReleases(
+            packageName: String,
+            releases: List<zed.rainxch.core.domain.model.account.github.GithubRelease>,
+        ): Boolean = false
+
         override suspend fun setPendingInstallFilePath(
             packageName: String,
             path: String?,
@@ -398,6 +403,10 @@ class SyncInstalledAppsUseCaseParkTest {
             path: String,
             version: String?,
             assetName: String?,
+            releaseId: Long?,
+            assetId: Long?,
+            releasePublishedAt: String?,
+            assetDigest: String?,
         ) = Unit
 
         override fun getAppsWithUpdates(): Flow<List<InstalledApp>> = emptyFlow()
@@ -435,6 +444,7 @@ class SyncInstalledAppsUseCaseParkTest {
             newReleaseId: Long?,
             newAssetId: Long?,
             newAssetDigest: String?,
+            newReleasePublishedAt: String?,
             newAssetName: String?,
             newAssetUrl: String?,
             newVersionName: String,
