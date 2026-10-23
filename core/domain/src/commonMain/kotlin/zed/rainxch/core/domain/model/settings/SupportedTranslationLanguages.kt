@@ -11,6 +11,7 @@ object SupportedTranslationLanguages {
             SupportedTranslationLanguage("da", "Danish"),
             SupportedTranslationLanguage("nl", "Dutch"),
             SupportedTranslationLanguage("en", "English"),
+            SupportedTranslationLanguage("fa", "Persian"),
             SupportedTranslationLanguage("fi", "Finnish"),
             SupportedTranslationLanguage("fr", "French"),
             SupportedTranslationLanguage("de", "German"),
