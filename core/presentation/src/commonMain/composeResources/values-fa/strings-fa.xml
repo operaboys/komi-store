@@ -287,7 +287,7 @@
 	 <string name="home_failed_to_load_repositories">بارگذاری مخازن ناموفق بود</string>
 	 <string name="home_topbar_discover">کشف</string>
 	 <string name="home_masthead_title">برترین‌ها (Top Charts)</string>
-	 <string name="home_masthead_subtitle">رتبه‌بندی · ランキング · CHARTS & PICKS</string>
+	 <string name="home_masthead_subtitle">رتبه‌بندی · ランキング · CHARTS &amp; PICKS</string>
 	 <string name="home_platform_filter">فیلتر پلتفرم‌ها</string>
 	 <string name="home_chart_trending">پرطرفدار (Trending)</string>
 	 <string name="home_chart_trending_jp">پرطرفدار · 急上昇</string>
